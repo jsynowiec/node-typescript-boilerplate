@@ -1,0 +1,62 @@
+{
+  "name": "node-typescript-boilerplate",
+  "version": "0.0.0",
+  "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 6.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "nyc": "^8.1.0",
+    "ts-node": "^1.3.0",
+    "tslint": "^3.14.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2"
+  },
+  "scripts": {
+    "clean": "rm -rf .nyc_output coverage build",
+    "postinstall": "typings install",
+    "compile": "tsc",
+    "precompile": "npm run lint --silent",
+    "watch": "tsc -w",
+    "lint": "tslint -t stylish src{,/**}/*.ts test{,/**}/*.ts",
+    "test": "NODE_ENV=test mocha --compilers ts:ts-node/register test/**/*spec.ts",
+    "test:coverage": "NODE_ENV=test nyc npm test"
+  },
+  "author": "Jakub Synowiec <jakub@jakubsynowiec.info> (https://jakubsynowiec.info)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsynowiec/node-typescript-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jsynowiec/node-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jsynowiec/node-typescript-boilerplate#readme",
+  "nyc": {
+    "lines": 60,
+    "statements": 60,
+    "functions": 60,
+    "branches": 60,
+    "include": [
+      "src{,/**}/*.ts"
+    ],
+    "exclude": [
+      "typings"
+    ],
+    "extension": [
+      ".ts"
+    ],
+    "reporter": [
+      "lcov",
+      "text"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "all": true,
+    "check-coverage": true
+  }
+}
