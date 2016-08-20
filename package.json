@@ -21,8 +21,8 @@
     "compile": "tsc",
     "precompile": "npm run lint --silent",
     "watch": "tsc -w",
-    "lint": "tslint -t stylish src{,/**}/*.ts test{,/**}/*.ts",
-    "test": "NODE_ENV=test mocha --compilers ts:ts-node/register test/**/*spec.ts",
+    "lint": "tslint -t stylish '{src,test}/**/*.ts'",
+    "test": "NODE_ENV=test mocha --compilers ts:ts-node/register 'test/**/*spec.ts'",
     "test:coverage": "NODE_ENV=test nyc npm test"
   },
   "author": "Jakub Synowiec <jakub@jakubsynowiec.info> (https://jakubsynowiec.info)",
