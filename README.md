@@ -1,3 +1,5 @@
+[![devDependency Status](https://david-dm.org/jsynowiec/node-typescript-boilerplate/dev-status.svg)](https://david-dm.org/jsynowiec/node-typescript-boilerplate?type=dev)
+
 # node-typescript-boilerplate
 
 Minimalistic boilerplate to quick-start Node.js development in TypeScript.
