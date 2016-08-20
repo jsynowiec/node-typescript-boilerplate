@@ -1,4 +1,5 @@
 [![devDependency Status](https://david-dm.org/jsynowiec/node-typescript-boilerplate/dev-status.svg)](https://david-dm.org/jsynowiec/node-typescript-boilerplate?type=dev)
+[![Required node version](https://img.shields.io/badge/node->=%206.2.x-blue.svg)](https://nodejs.org/dist/latest-v6.x/docs/api/)
 
 # node-typescript-boilerplate
 
