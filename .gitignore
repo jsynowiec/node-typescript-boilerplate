@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Typings
+typings/
+
+# Coverage
+coverage
+.nyc_output
+
+# Transpiled files
+build/
+
+# VS Code
+.vscode
+!.vscode/tasks.js
+
+# Misc
+.DS_Store
