@@ -10,13 +10,14 @@
     "chai": "^3.5.0",
     "mocha": "^3.0.2",
     "nyc": "^8.1.0",
+    "rimraf": "^2.5.4",
     "ts-node": "^1.3.0",
     "tslint": "^3.14.0",
     "typescript": "^1.8.10",
     "typings": "^1.3.2"
   },
   "scripts": {
-    "clean": "rm -rf .nyc_output coverage build",
+    "clean": "rimraf .nyc_output coverage build",
     "postinstall": "typings install",
     "compile": "tsc",
     "precompile": "npm run lint --silent",
