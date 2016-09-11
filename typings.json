@@ -1,9 +1,8 @@
 {
   "globalDependencies": {
-    "node": "registry:dt/node#6.0.0+20160818175514"
+    "node": "registry:dt/node#6.0.0+20160909174046"
   },
   "globalDevDependencies": {
-    "chai": "registry:dt/chai#3.4.0+20160601211834",
-    "mocha": "registry:dt/mocha#2.2.5+20160720003353"
+    "jest": "registry:dt/jest#0.9.0+20160706021812"
   }
 }

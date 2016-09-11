@@ -14,13 +14,12 @@
 
 Minimalistic boilerplate to quick-start [Node.js][nodejs] development in [TypeScript][typescript].
 
-Provides a basic template for Node.js project that is preconfigured with:
+Provides a basic project template for Node.js projects, batteries included:
 
-+ TypeScript to ES6 transpilation,
-+ TSLint linting with some basic rules, 
-+ Mocha + Chai tests w/o transpilation,
-+ nyc (Istanbul) coverage w/o transpilation,
-+ Type definitions for Node, Mocha and Chai.
++ [TypeScript][typescript] to ES6 transpilation,
++ [TSLint][tslint] linting with some basic rules, 
++ [Jest][jest] unit tests and coverage,
++ [Typings][typings] and type definitions for Node.js and Jest.
 
 ## Quick start
 
@@ -34,12 +33,13 @@ npm install
 
 ## Available NPM scripts
 
-+ `clean` - remove coverage report and transpiled files,
-+ `compile` - transpile TS to ES6,
-+ `watch` - watch source directory and transpile on change, 
++ `clean` - remove coverage data, Jest cache and transpiled files,
++ `compile` - transpile TypeScript to ES6,
++ `watch` - interactive watch mode to automatically transpile source files, 
 + `lint` - lint source files and tests,
 + `test` - run tests,
-+ `test:coverage` - run tests and check coverage,
++ `test:watch` - interactive watch mode to automatically re-run tests
++ `test:coverage` - run unit tests and collect coverage,
 
 ## License
 MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) file.
@@ -63,3 +63,6 @@ MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boil
 [github-star]: https://github.com/jsynowiec/node-typescript-boilerplate/stargazers
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20this%20Node.js%20TypeScript%20boilerplate!%20https://github.com/jsynowiec/node-typescript-boilerplate%20%F0%9F%91%8D
 [twitter-badge]: https://img.shields.io/twitter/url/https/jsynowiec/node-typescript-boilerplate.svg?style=social
+[jest]: https://facebook.github.io/jest/
+[tslint]: https://palantir.github.io/tslint/
+[typings]: https://github.com/typings/typings
