@@ -20,9 +20,12 @@
     "compile": "tsc",
     "watch": "tsc -w",
     "lint": "tslint -t stylish '{src,test}/**/*.{ts}'",
+    "l": "npm run lint --silent",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "t:w": "npm run test:watch",
+    "test:coverage": "jest --coverage",
+    "t:c": "npm run test:coverage --silent"
   },
   "author": "Jakub Synowiec <jakub@jakubsynowiec.info> (https://jakubsynowiec.info)",
   "license": "MIT",

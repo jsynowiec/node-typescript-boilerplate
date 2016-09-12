@@ -37,9 +37,12 @@ npm install
 + `compile` - transpile TypeScript to ES6,
 + `watch` - interactive watch mode to automatically transpile source files, 
 + `lint` - lint source files and tests,
++ `l` - alias for `lint`
 + `test` - run tests,
 + `test:watch` - interactive watch mode to automatically re-run tests
++ `t:w` - alias for `test:watch`
 + `test:coverage` - run unit tests and collect coverage,
++ `t:c` - alias for `test:coverage`
 
 ## License
 MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) file.
