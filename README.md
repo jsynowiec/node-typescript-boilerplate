@@ -17,7 +17,7 @@ Minimalistic boilerplate to quick-start [Node.js][nodejs] development in [TypeSc
 Provides a basic project template for Node.js projects, batteries included:
 
 + [TypeScript][typescript] to ES6 transpilation,
-+ [TSLint][tslint] linting with some basic rules, 
++ [TSLint][tslint] linting with a general recommendation for a good default configuration, 
 + [Jest][jest] unit tests and coverage,
 + [Typings][typings] and type definitions for Node.js and Jest.
 
