@@ -41,9 +41,9 @@
     "testEnvironment": "node",
     "scriptPreprocessor": "<rootDir>/preprocessor.js",
     "moduleFileExtensions": ["ts", "js"],
-    "testPathDirs": ["<rootDir>/test"],
     "testRegex": ".*(test|spec)\\.(ts|js)$",
     "coverageDirectory": "coverage",
+    "collectCoverageFrom": ["src/**/*.{ts,js}"],
     "coverageThreshold": {
       "global": {
         "branches": 60,
