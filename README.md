@@ -12,14 +12,16 @@
 
 # node-typescript-boilerplate
 
-Minimalistic boilerplate to quick-start [Node.js][nodejs] development in [TypeScript][typescript].
+Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript].
 
-Provides a basic project template for Node.js projects, batteries included:
+Provides a basic template, batteries included:
 
 + [TypeScript][typescript] to ES6 transpilation,
 + [TSLint][tslint] linting with a general recommendation for a good default configuration, 
-+ [Jest][jest] unit tests and coverage,
-+ [Typings][typings] and type definitions for Node.js and Jest.
++ [Jest][jest] framework for unit tests and test coverage,
++ [Typings][typings] with type definitions for Node.js and Jest,
++ NPM scripts with short aliases for common operations,
++ .editorconfig for consistent file format.
 
 ## Quick start
 
