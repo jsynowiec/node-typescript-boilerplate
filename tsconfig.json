@@ -11,7 +11,12 @@
     "allowSyntheticDefaultImports": true,
     "removeComments": true
   },
-  "files": [
-    "src/main.ts"
-   ]
+  "include": [
+    "node_modules/@types/**/*.d.ts",
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
