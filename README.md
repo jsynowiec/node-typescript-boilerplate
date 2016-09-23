@@ -12,14 +12,14 @@
 
 # node-typescript-boilerplate
 
-Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript].
+Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] 2.0.
 
 Provides a basic template, batteries included:
 
 + [TypeScript][typescript] to ES6 transpilation,
-+ [TSLint][tslint] linting with a general recommendation for a good default configuration, 
-+ [Jest][jest] framework for unit tests and test coverage,
-+ [Typings][typings] with type definitions for Node.js and Jest,
++ [TSLint][tslint] with a general recommendation for a good default configuration, 
++ [Jest][jest] for unit tests and test coverage,
++ Type definitions for Node.js and Jest,
 + NPM scripts with short aliases for common operations,
 + .editorconfig for consistent file format.
 
@@ -70,4 +70,3 @@ MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boil
 [twitter-badge]: https://img.shields.io/twitter/url/https/jsynowiec/node-typescript-boilerplate.svg?style=social
 [jest]: https://facebook.github.io/jest/
 [tslint]: https://palantir.github.io/tslint/
-[typings]: https://github.com/typings/typings
