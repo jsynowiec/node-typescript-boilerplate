@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@types/jest": "^15.1.32",
+    "@types/node": "^6.0.40",
     "jest": "^15.1.1",
     "rimraf": "^2.5.4",
     "tslint": "^3.15.1",
@@ -56,8 +57,5 @@
         "statements": 60
       }
     }
-  },
-  "dependencies": {
-    "@types/node": "^6.0.40"
   }
 }
