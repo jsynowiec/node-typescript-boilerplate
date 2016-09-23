@@ -12,7 +12,6 @@
     "removeComments": true
   },
   "files": [
-    "typings/index.d.ts",
     "src/main.ts"
    ]
 }
