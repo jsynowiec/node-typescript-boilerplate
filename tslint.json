@@ -10,24 +10,18 @@
       * or are recommended in the Microsoft Secure Development Lifecycle (SDL)
       */
     "no-banned-terms": true,
-    "no-cookies": true,
     "no-delete-expression": true,
     "no-disable-auto-sanitization": true,
-    "no-document-domain": true,
-    "no-document-write": true,
     "no-duplicate-key": true,
     "no-eval": true,
     "no-exec-script": true,
     "no-function-constructor-with-string-args": true,
     "no-http-string": [true, "http://www.example.com/?.*", "http://www.examples.com/?.*"],
-    "no-inner-html": true,
     "no-octal-literal": true,
     "no-reserved-keywords": true,
     "no-string-based-set-immediate": true,
     "no-string-based-set-interval": true,
     "no-string-based-set-timeout": true,
-    "react-iframe-missing-sandbox": true,
-    "react-no-dangerous-html": true,
     "use-strict": [true, "check-module"],
 
     /**
@@ -35,12 +29,10 @@
       * common bug patterns in the code or enforce type safety.
       */
     "forin": true,
-    "jquery-deferred-must-complete": true,
     "label-position": true,
     "label-undefined": true,
     "no-any": true,
     "no-arg": true,
-    "no-backbone-get-set-outside-model": true,
     "no-bitwise": true,
     "no-conditional-assignment": true,
     "no-console": [true, "debug", "info", "log", "time", "timeEnd", "trace"],
@@ -50,11 +42,9 @@
     "no-duplicate-case": true,
     "no-duplicate-variable": true,
     "no-empty": true,
-    "no-for-in-array": true,
     "no-increment-decrement": true,
     "no-invalid-regexp": true,
     "no-invalid-this": true,
-    "no-jquery-raw-elements": true,
     "no-regex-spaces": true,
     "no-sparse-arrays": true,
     "no-stateless-class": true,
@@ -69,9 +59,6 @@
     "no-with-statement": true,
     "promise-must-complete": true,
     "radix": true,
-    "react-this-binding-issue": true,
-    "react-unused-props-and-state": true,
-    "restrict-plus-operands": true, // the plus operand should really only be used for strings and numbers
     "switch-default": true,
     "triple-equals": [true, "allow-null-check"],
     "use-isnan": true,
@@ -85,9 +72,9 @@
     "arrow-parens": false, // for simple functions the parens on arrow functions are not needed
     "class-name": true,
     "comment-format": [true, "check-space", "check-uppercase"],
-    "export-name": true,
+    "export-name": false,
     "function-name": true,
-    "import-name": true,
+    "import-name": false,
     "interface-name": [true, "always-prefix"],
     "jsdoc-format": true,
     "max-file-line-count": true,
@@ -95,25 +82,24 @@
     "max-line-length": [true, 140],
     "member-access": true,
     "member-ordering": [true, { "order": "fields-first" }],
-    "missing-jsdoc": true,
+    "missing-jsdoc": false,
     "new-parens": true,
     "no-construct": true,
     "no-constructor-vars": true,
     "no-default-export": true,
     "no-empty-interfaces": true,
     "no-for-in": true,
-    "no-function-expression": true,
+    "no-function-expression": false,
     "no-inferrable-types": false, // turn no-inferrable-types off in order to make the code consistent in its use of type decorations
     "no-multiline-string": true, // multiline-strings often introduce unnecessary whitespace into the string literals
     "no-null-keyword": false, // turn no-null-keyword off and use undefined to mean not initialized and null to mean without a value
-    "no-relative-imports": true,
+    "no-relative-imports": false,
     "no-require-imports": true,
     "no-shadowed-variable": true,
     "no-suspicious-comment": true,
     "no-typeof-undefined": true,
     "no-unnecessary-field-initialization": true,
     "no-unnecessary-local-variable": true,
-    "no-unsupported-browser-code": true,
     "no-var-keyword": true,
     "no-var-requires": true,
     "no-var-self": true,
@@ -122,25 +108,10 @@
     "only-arrow-functions": false,  // there are many valid reasons to declare a function
     "ordered-imports": true,
     "prefer-array-literal": true,
-    "prefer-const": true,
+    "prefer-const": false,
     "typedef": [true, "call-signature", "parameter", "property-declaration", "variable-declaration", "member-variable-declaration"],
     "underscore-consistent-invocation": true,
     "variable-name": true,
-
-    /**
-      * Accessibility. The following rules should be turned on to guarantee the best user
-      * experience for keyboard and screen reader users.
-      */
-    "react-a11y-anchors": true,
-    "react-a11y-img-has-alt": true,
-    "react-a11y-lang": true,
-    "react-a11y-meta": true,
-    "react-a11y-props": true,
-    "react-a11y-role": true,
-    "react-a11y-role-has-required-aria-props": true,
-    "react-a11y-role-supports-aria-props": true,
-    "react-a11y-tabindex-no-positive": true,
-    "react-a11y-titles": true,
 
     /**
       * Whitespace related rules. The only recommended whitespace strategy is to pick a single format and
@@ -164,11 +135,11 @@
                 // lists results in lists that are easier to reorder and version control diffs that are more clear.
                 // Many teams like to have multiline be 'always'. There is no clear consensus on this rule but the
     "typedef-whitespace": [true, { // forces a space before the colon in a type specifier
-      "call-signature": "space",
-      "index-signature": "space",
-      "parameter": "space",
-      "property-declaration": "space",
-      "variable-declaration": "space"
+      "call-signature": "nospace",
+      "index-signature": "nospace",
+      "parameter": "nospace",
+      "property-declaration": "nospace",
+      "variable-declaration": "nospace"
     }],
     "whitespace": [true, "check-branch", "check-decl", "check-operator", "check-separator", "check-type"],
 
