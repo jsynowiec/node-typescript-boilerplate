@@ -55,9 +55,6 @@
         "lines": 60,
         "statements": 60
       }
-    },
-    "globals": {
-      "NODE_ENV": "test"
     }
   },
   "dependencies": {
