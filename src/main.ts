@@ -1,7 +1,7 @@
-function greeter (person: string) {
-    return `Hello, ${person}`;
+function greeter (name: string): string {
+    return `Hello, ${name}`;
 }
 
-export default {
+export {
   greeter,
 };
