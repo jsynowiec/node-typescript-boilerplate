@@ -17,8 +17,8 @@
   },
   "scripts": {
     "clean": "rimraf coverage build tmp",
-    "compile": "tsc",
-    "watch": "tsc -w",
+    "compile": "tsc -p tsconfig.release.json",
+    "watch": "tsc -w -p tsconfig.release.json",
     "lint": "tslint -t stylish '{src,test}/**/*.{ts}'",
     "l": "npm run lint --silent",
     "test": "jest",
