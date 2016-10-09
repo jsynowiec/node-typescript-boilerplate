@@ -10,9 +10,10 @@
     "outDir": "build",
     "allowSyntheticDefaultImports": true,
     "removeComments": true,
-    "jsx": "react"
+    "jsx": "react",
+    "allowJs": true
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*"
   ]
 }

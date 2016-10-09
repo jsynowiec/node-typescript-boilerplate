@@ -4,10 +4,11 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "noImplicitAny": false,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true
   },
   "include": [
-    "src/**/*.ts",
-    "test/**/*.ts"
+    "src/**/*",
+    "test/**/*"
   ]
 }
