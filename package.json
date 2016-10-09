@@ -42,12 +42,14 @@
     "scriptPreprocessor": "<rootDir>/preprocessor.js",
     "moduleFileExtensions": [
       "ts",
-      "js"
+      "tsx",
+      "js",
+      "jsx"
     ],
     "testRegex": "<rootDir>(test/).*\\.(test|spec)\\.(ts|js)$",
     "coverageDirectory": "coverage",
     "collectCoverageFrom": [
-      "src/**/*.{ts,js}"
+      "src/**/*.{ts,tsx,js,jsx}"
     ],
     "coverageThreshold": {
       "global": {
