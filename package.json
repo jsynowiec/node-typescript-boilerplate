@@ -21,12 +21,12 @@
     "compile": "tsc -p tsconfig.release.json",
     "watch": "tsc -w -p tsconfig.release.json",
     "lint": "tslint -t stylish '{src,test}/**/*.{ts}'",
-    "l": "npm run lint --silent",
+    "l": "npm run lint",
     "test": "jest",
     "test:watch": "jest --watch",
     "t:w": "npm run test:watch",
     "test:coverage": "jest --coverage",
-    "t:c": "npm run test:coverage --silent"
+    "t:c": "npm run test:coverage"
   },
   "author": "Jakub Synowiec <jakub@jakubsynowiec.info> (https://jakubsynowiec.info)",
   "license": "MIT",
