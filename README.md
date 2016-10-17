@@ -37,6 +37,7 @@ npm install
 
 + `clean` - remove coverage data, Jest cache and transpiled files,
 + `compile` - transpile TypeScript to ES6,
++ `build` - alias for `compile`,
 + `watch` - interactive watch mode to automatically transpile source files, 
 + `lint` - lint source files and tests,
 + `l` - alias for `lint`
