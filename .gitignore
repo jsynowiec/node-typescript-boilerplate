@@ -6,12 +6,8 @@ npm-debug.log*
 # Dependencies
 node_modules/
 
-# Typings
-typings/
-
 # Coverage
 coverage
-.nyc_output
 
 # Transpiled files
 build/
