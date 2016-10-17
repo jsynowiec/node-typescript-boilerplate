@@ -25,7 +25,7 @@ Provides a basic template, batteries included:
 
 ## Quick start
 
-This project requires [Node.js](nodejs) 6.2+ and [NPM](npm). Make sure you have those installed. Then just type following commands:
+This project requires [Node.js][nodejs] 6.2+ and [NPM][npm]. Make sure you have those installed. Then just type following commands:
 
 ```
 git clone https://github.com/jsynowiec/node-typescript-boilerplate
