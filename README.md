@@ -18,9 +18,9 @@ Provides a basic template, batteries included:
 
 + [TypeScript][typescript] to ES6 transpilation,
 + [TSLint][tslint] with a general recommendation for a good default configuration, 
-+ [Jest][jest] for unit tests and test coverage,
++ [Jest][jest] unit testing and coverage,
 + Type definitions for Node.js and Jest,
-+ NPM scripts with short aliases for common operations,
++ [NPM scripts for common operations](#available-scripts),
 + .editorconfig for consistent file format.
 
 ## Quick start
@@ -33,19 +33,14 @@ cd node-typescript-boilerplate
 npm install
 ```
 
-## Available NPM scripts
+## Available scripts
 
 + `clean` - remove coverage data, Jest cache and transpiled files,
-+ `compile` - transpile TypeScript to ES6,
-+ `build` - alias for `compile`,
++ `build` - transpile TypeScript to ES6,
 + `watch` - interactive watch mode to automatically transpile source files, 
 + `lint` - lint source files and tests,
-+ `l` - alias for `lint`
 + `test` - run tests,
 + `test:watch` - interactive watch mode to automatically re-run tests
-+ `t:w` - alias for `test:watch`
-+ `test:coverage` - run unit tests and collect coverage,
-+ `t:c` - alias for `test:coverage`
 
 ## Alternative
 
@@ -56,9 +51,9 @@ MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boil
 
 [dependencies-badge]: https://david-dm.org/jsynowiec/node-typescript-boilerplate/dev-status.svg?style=flat-square
 [dependencies]: https://david-dm.org/jsynowiec/node-typescript-boilerplate?type=dev
-[nodejs-badge]: https://img.shields.io/badge/node->=%206.2.x-blue.svg?style=flat-square
+[nodejs-badge]: https://img.shields.io/badge/node->=%206.2.0-blue.svg?style=flat-square
 [nodejs]: https://nodejs.org/dist/latest-v6.x/docs/api/
-[npm-badge]: https://img.shields.io/badge/npm->=%203.x-blue.svg?style=flat-square
+[npm-badge]: https://img.shields.io/badge/npm->=%203.8.9-blue.svg?style=flat-square
 [npm]: https://docs.npmjs.com/
 [typescript]: https://www.typescriptlang.org/
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
