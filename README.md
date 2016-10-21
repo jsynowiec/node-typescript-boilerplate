@@ -47,6 +47,10 @@ npm install
 + `test:coverage` - run unit tests and collect coverage,
 + `t:c` - alias for `test:coverage`
 
+## Alternative
+
+As an alternative to TypeScript, you can try my [Node.js Flow boilerplate][flow-boilerplate]. It's basically the same but with ES6, async/await, Flow type checking and ESLint.
+
 ## License
 MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) file.
 
@@ -71,3 +75,5 @@ MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boil
 [twitter-badge]: https://img.shields.io/twitter/url/https/jsynowiec/node-typescript-boilerplate.svg?style=social
 [jest]: https://facebook.github.io/jest/
 [tslint]: https://palantir.github.io/tslint/
+
+[flow-boilerplate]: https://github.com/jsynowiec/node-flowtype-boilerplate
