@@ -19,7 +19,7 @@
     "clean": "rimraf coverage build tmp",
     "build": "tsc -p tsconfig.release.json",
     "watch": "tsc -w -p tsconfig.release.json",
-    "lint": "tslint -t stylish '{src,test}/**/*.{ts}'",
+    "lint": "tslint -t stylish '{src,__tests__}/**/*.{ts}'",
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
@@ -42,7 +42,7 @@
       "js",
       "jsx"
     ],
-    "testRegex": "<rootDir>(test/).*\\.(test|spec)\\.(ts|js)$",
+    "testRegex": "<rootDir>(__tests__/).*\\.(test|spec)\\.(ts|js)$",
     "coverageDirectory": "coverage",
     "collectCoverageFrom": [
       "src/**/*.{ts,tsx,js,jsx}"
