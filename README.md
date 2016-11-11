@@ -1,6 +1,7 @@
 [![Dev dependencies][dependencies-badge]][dependencies]
 [![Node.js version][nodejs-badge]][nodejs]
 [![NPM version][npm-badge]][npm]
+[![Build Status][travis-badge]][travis-ci]
 
 [![MIT License][license-badge]][LICENSE]
 [![PRs Welcome][prs-badge]][prs]
@@ -49,18 +50,20 @@ As an alternative to TypeScript, you can try my [Node.js Flow boilerplate][flow-
 ## License
 MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) file.
 
-[dependencies-badge]: https://david-dm.org/jsynowiec/node-typescript-boilerplate/dev-status.svg?style=flat-square
+[dependencies-badge]: https://david-dm.org/jsynowiec/node-typescript-boilerplate/dev-status.svg
 [dependencies]: https://david-dm.org/jsynowiec/node-typescript-boilerplate?type=dev
-[nodejs-badge]: https://img.shields.io/badge/node->=%206.2.0-blue.svg?style=flat-square
+[nodejs-badge]: https://img.shields.io/badge/node->=%206.2.0-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v6.x/docs/api/
-[npm-badge]: https://img.shields.io/badge/npm->=%203.8.9-blue.svg?style=flat-square
+[npm-badge]: https://img.shields.io/badge/npm->=%203.8.9-blue.svg
 [npm]: https://docs.npmjs.com/
+[travis-badge]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate.svg?branch=master
+[travis-ci]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate
 [typescript]: https://www.typescriptlang.org/
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
+[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE
-[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
 [prs]: http://makeapullrequest.com
-[donate-badge]: https://img.shields.io/badge/$-support-green.svg?style=flat-square
+[donate-badge]: https://img.shields.io/badge/$-support-green.svg
 [donate]: http://bit.ly/donate-js
 [github-watch-badge]: https://img.shields.io/github/watchers/jsynowiec/node-typescript-boilerplate.svg?style=social
 [github-watch]: https://github.com/jsynowiec/node-typescript-boilerplate/watchers
