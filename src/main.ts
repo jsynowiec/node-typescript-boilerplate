@@ -7,4 +7,4 @@ function delayedHello(name: string, delay: number = 2000): Promise<string> {
 
 export default async function greeter(name) { // tslint:disable-line
   return await delayedHello(name);
-};
+}
