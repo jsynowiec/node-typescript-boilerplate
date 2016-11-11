@@ -23,7 +23,7 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
-  "author": "Jakub Synowiec <jakub@jakubsynowiec.info> (https://jakubsynowiec.info)",
+  "author": "Jakub Synowiec <github@jakubsynowiec.info>",
   "license": "MIT",
   "repository": {
     "type": "git",
