@@ -1,5 +1,3 @@
-// https://github.com/facebook/jest/blob/master/examples/typescript/preprocessor.js
-
 const tsc = require('typescript');
 const fs = require('fs');
 
