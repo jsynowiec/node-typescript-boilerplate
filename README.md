@@ -34,6 +34,12 @@ cd node-typescript-boilerplate
 npm install
 ```
 
+### Unit tests in JavaScript
+
+Writing unit tests in TypeScript can sometimes be troublesome and confusing. Especially when mocking dependencies and using spies.
+
+This is **optional**, but if you want to learn how to write JavaScript tests for TypeScript modules, read the [corresponding wiki page][wiki-js-tests].
+
 ## Available scripts
 
 + `clean` - remove coverage data, Jest cache and transpiled files,
@@ -75,3 +81,4 @@ MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boil
 [tslint]: https://palantir.github.io/tslint/
 
 [flow-boilerplate]: https://github.com/jsynowiec/node-flowtype-boilerplate
+[wiki-js-tests]: https://github.com/jsynowiec/node-typescript-boilerplate/wiki/Unit-tests-in-plain-JavaScript
