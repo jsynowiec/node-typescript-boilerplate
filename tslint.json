@@ -12,7 +12,6 @@
     "no-banned-terms": true,
     "no-delete-expression": true,
     "no-disable-auto-sanitization": true,
-    "no-duplicate-key": true,
     "no-eval": true,
     "no-exec-script": true,
     "no-function-constructor-with-string-args": true,
@@ -22,7 +21,6 @@
     "no-string-based-set-immediate": true,
     "no-string-based-set-interval": true,
     "no-string-based-set-timeout": true,
-    "use-strict": [true, "check-module"],
 
     /**
       * Common Bugs and Correctness. The following rules should be turned on because they find
@@ -30,7 +28,6 @@
       */
     "forin": true,
     "label-position": true,
-    "label-undefined": true,
     "no-any": true,
     "no-arg": true,
     "no-bitwise": true,
@@ -54,7 +51,6 @@
     "no-unsafe-finally": true,
     "no-unused-expression": true,
     "no-unused-new": true,
-    "no-unused-variable": true,
     "no-use-before-declare": true,
     "no-with-statement": true,
     "promise-must-complete": true,
@@ -85,7 +81,6 @@
     "missing-jsdoc": false,
     "new-parens": true,
     "no-construct": true,
-    "no-constructor-vars": true,
     "no-default-export": true,
     "no-empty-interfaces": true,
     "no-for-in": true,
@@ -163,7 +158,6 @@
     "no-missing-visibility-modifiers": false, // use tslint member-access rule instead
     "no-multiple-var-decl": false,         // use tslint one-variable-per-declaration rule instead
     "no-switch-case-fall-through": false,  // now supported by TypeScript compiler
-    "no-unreachable": false,               // now supported by TypeScript compiler
     "no-unused-imports": false             // use tslint no-unused-variable rule instead
   },
   "rulesDirectory": [
