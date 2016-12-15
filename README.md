@@ -13,7 +13,7 @@
 
 # node-typescript-boilerplate
 
-Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] 2.0.
+Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] 2.1.
 
 Provides a basic template, batteries included:
 
