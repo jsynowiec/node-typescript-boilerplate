@@ -18,5 +18,12 @@ build/
 
 # JetBrains IDEs
 .idea/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
 # Misc
 .DS_Store
