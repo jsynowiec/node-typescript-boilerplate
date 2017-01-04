@@ -16,5 +16,7 @@ build/
 .vscode
 !.vscode/tasks.js
 
+# JetBrains IDEs
+.idea/
 # Misc
 .DS_Store
