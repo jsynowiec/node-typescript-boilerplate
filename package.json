@@ -4,7 +4,7 @@
   "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
   "engineStrict": true,
   "engines": {
-    "node": ">= 6.2.0"
+    "node": ">= 6.9.0"
   },
   "devDependencies": {
     "@types/jest": "~16.0.4",

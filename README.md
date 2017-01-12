@@ -20,13 +20,13 @@ Provides a basic template, batteries included:
 + [TypeScript][typescript] to ES6 transpilation,
 + [TSLint][tslint] with a general recommendation for a good default configuration, 
 + [Jest][jest] unit testing and coverage,
-+ Type definitions for Node.js and Jest,
++ Type definitions for Node.js v6.9 (LTS) and Jest,
 + [NPM scripts for common operations](#available-scripts),
 + .editorconfig for consistent file format.
 
 ## Quick start
 
-This project requires [Node.js][nodejs] 6.2+ and [NPM][npm]. Make sure you have those installed. Then just type following commands:
+This project is intended to be used with [Node.js v6.9.0 (LTS)][nodejs] or later (but should work with any 6.2 or newer release) and [NPM][npm]. Make sure you have those installed. Then just type following commands:
 
 ```
 git clone https://github.com/jsynowiec/node-typescript-boilerplate
@@ -58,9 +58,9 @@ MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boil
 
 [dependencies-badge]: https://david-dm.org/jsynowiec/node-typescript-boilerplate/dev-status.svg
 [dependencies]: https://david-dm.org/jsynowiec/node-typescript-boilerplate?type=dev
-[nodejs-badge]: https://img.shields.io/badge/node->=%206.2.0-blue.svg
+[nodejs-badge]: https://img.shields.io/badge/node->=%206.9.0-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v6.x/docs/api/
-[npm-badge]: https://img.shields.io/badge/npm->=%203.8.9-blue.svg
+[npm-badge]: https://img.shields.io/badge/npm->=%203.10.8-blue.svg
 [npm]: https://docs.npmjs.com/
 [travis-badge]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate.svg?branch=master
 [travis-ci]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate
