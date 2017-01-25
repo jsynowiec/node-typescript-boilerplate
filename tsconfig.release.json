@@ -11,7 +11,8 @@
     "allowSyntheticDefaultImports": true,
     "removeComments": true,
     "jsx": "react",
-    "allowJs": true
+    "allowJs": true,
+    "importHelpers": true
   },
   "include": [
     "src/**/*"

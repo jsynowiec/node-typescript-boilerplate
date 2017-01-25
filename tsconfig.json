@@ -6,7 +6,8 @@
     "noImplicitAny": false,
     "allowSyntheticDefaultImports": true,
     "jsx": "preserve",
-    "allowJs": true
+    "allowJs": true,
+    "importHelpers": true
   },
   "include": [
     "src/**/*",
