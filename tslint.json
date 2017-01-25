@@ -9,11 +9,11 @@
       * Security Rules. The following rules should be turned on because they find security issues
       * or are recommended in the Microsoft Secure Development Lifecycle (SDL)
       */
+    "insecure-random": true,
     "no-banned-terms": true,
     "no-delete-expression": true,
     "no-disable-auto-sanitization": true,
     "no-eval": true,
-    "no-exec-script": true,
     "no-function-constructor-with-string-args": true,
     "no-http-string": [true, "http://www.example.com/?.*", "http://www.examples.com/?.*"],
     "no-octal-literal": true,
@@ -21,13 +21,14 @@
     "no-string-based-set-immediate": true,
     "no-string-based-set-interval": true,
     "no-string-based-set-timeout": true,
+    "non-literal-require": true,
+    "possible-timing-attack": true,
 
     /**
       * Common Bugs and Correctness. The following rules should be turned on because they find
       * common bug patterns in the code or enforce type safety.
       */
     "forin": true,
-    "label-position": true,
     "no-any": true,
     "no-arg": true,
     "no-bitwise": true,
@@ -35,10 +36,10 @@
     "no-console": [true, "debug", "info", "log", "time", "timeEnd", "trace"],
     "no-constant-condition": true,
     "no-control-regex": true,
-    "no-debugger": true,
     "no-duplicate-case": true,
     "no-duplicate-variable": true,
     "no-empty": true,
+    "no-for-in-array": false,
     "no-increment-decrement": true,
     "no-invalid-regexp": true,
     "no-invalid-this": true,
@@ -46,6 +47,7 @@
     "no-sparse-arrays": true,
     "no-stateless-class": true,
     "no-string-literal": true,
+    "no-string-throw": true,
     "no-unnecessary-bind": true,
     "no-unnecessary-override": true,
     "no-unsafe-finally": true,
@@ -65,7 +67,10 @@
       * Code Clarity. The following rules should be turned on because they make the code
       * generally more clear to the reader.
       */
+    "adjacent-overload-signatures": true,
+    "array-type": [true, "array"],
     "arrow-parens": false, // for simple functions the parens on arrow functions are not needed
+    "callable-types": true,
     "class-name": true,
     "comment-format": [true, "check-space", "check-uppercase"],
     "export-name": false,
@@ -73,7 +78,8 @@
     "import-name": false,
     "interface-name": [true, "always-prefix"],
     "jsdoc-format": true,
-    "max-file-line-count": true,
+    "max-classes-per-file": [true, 3],  // we generally recommend making one public class per file
+    "max-file-line-count": [true, 500],
     "max-func-body-length": [true, 100, {"ignore-parameters-to-function-regex": "describe"}],
     "max-line-length": [true, 140],
     "member-access": true,
@@ -83,11 +89,12 @@
     "no-construct": true,
     "no-default-export": true,
     "no-empty-interfaces": true,
-    "no-for-in": true,
-    "no-function-expression": false,
+    "no-for-in": false,
+    "no-function-expression": true,
     "no-inferrable-types": false, // turn no-inferrable-types off in order to make the code consistent in its use of type decorations
     "no-multiline-string": true, // multiline-strings often introduce unnecessary whitespace into the string literals
     "no-null-keyword": false, // turn no-null-keyword off and use undefined to mean not initialized and null to mean without a value
+    "no-parameter-properties": true,
     "no-relative-imports": false,
     "no-require-imports": true,
     "no-shadowed-variable": true,
@@ -99,22 +106,25 @@
     "no-var-requires": true,
     "no-var-self": true,
     "object-literal-sort-keys": false, // turn object-literal-sort-keys off and sort keys in a meaningful manner
-    "one-variable-per-declaration": true,
+    "one-variable-per-declaration": [true, "ignore-for-loop"],
     "only-arrow-functions": false,  // there are many valid reasons to declare a function
-    "ordered-imports": true,
+    "ordered-imports": [true, "case-insensitive"],
     "prefer-array-literal": true,
     "prefer-const": false,
+    "prefer-for-of": true,
     "typedef": [true, "call-signature", "parameter", "property-declaration", "variable-declaration", "member-variable-declaration"],
     "underscore-consistent-invocation": true,
-    "variable-name": true,
+    "unified-signatures": true,
+    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
 
     /**
       * Whitespace related rules. The only recommended whitespace strategy is to pick a single format and
       * be consistent.
       */
-    "align": [true, "parameters", "arguments", "statements"],
+    "align": [true, "parameters", "statements"],
     "curly": true,
     "eofline": true,
+    "import-spacing": true,
     "indent": [true, "spaces"],
     "linebreak-style": true,
     "no-consecutive-blank-lines": true,
@@ -127,38 +137,57 @@
     "quotemark": [true, "single"],
     "semicolon": [true, "always"],
     "trailing-comma": [true, {"singleline": "never", "multiline": "always"}], // forcing trailing commas for multi-line
-                // lists results in lists that are easier to reorder and version control diffs that are more clear.
-                // Many teams like to have multiline be 'always'. There is no clear consensus on this rule but the
-    "typedef-whitespace": [true, { // forces a space before the colon in a type specifier
-      "call-signature": "nospace",
-      "index-signature": "nospace",
-      "parameter": "nospace",
-      "property-declaration": "nospace",
-      "variable-declaration": "nospace"
-    }],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      },
+      {
+        "call-signature": "onespace",
+        "index-signature": "onespace",
+        "parameter": "onespace",
+        "property-declaration": "onespace",
+        "variable-declaration": "onespace"
+      }
+    ],
     "whitespace": [true, "check-branch", "check-decl", "check-operator", "check-separator", "check-type"],
 
     /**
       * Controversial/Configurable rules.
       */
     "ban": false,                // only enable this if you have some code pattern that you want to ban
+    "cyclomatic-complexity": false,
+    "file-header": false,  // enable this rule only if you are legally required to add a file header
+    "import-blacklist": false,  // enable and configure this as you desire
+    "interface-over-type-literal": false,  // there are plenty of reasons to prefer interfaces
     "no-angle-bracket-type-assertion": false,  // pick either type-cast format and use it consistently
+    "no-empty-interface": false,  // it is currently better to use the MS version of this rule
+    "no-inferred-empty-object-type": false,  // if the compiler is satisfied then this is probably not an issue
     "no-internal-module": false, // only enable this if you are not using internal modules
+    "no-magic-numbers": false,  // by default it will find too many false positives
     "no-mergeable-namespace": false,  // your project may require mergeable namespaces
     "no-namespace": false,       // only enable this if you are not using modules/namespaces
     "no-reference": true,        // in general you should use a module system and not /// reference imports
     "no-unexternalized-strings": false, // the VS Code team has a specific localization process that this rule enforces
+    "object-literal-shorthand": false,  // object-literal-shorthand offers an abbreviation not an abstraction
     "prefer-type-cast": true,   // pick either type-cast format and use it consistently
+    "space-before-function-paren": false,   // turn this on if this is really your coding standard
 
     /**
-      * Deprecated rules. The following rules are deprecated for various reasons.
+      * Deprecated rules.  The following rules are deprecated for various reasons.
       */
     "missing-optional-annotation": false,  // now supported by TypeScript compiler
     "no-duplicate-parameter-names": false, // now supported by TypeScript compiler
     "no-missing-visibility-modifiers": false, // use tslint member-access rule instead
     "no-multiple-var-decl": false,         // use tslint one-variable-per-declaration rule instead
     "no-switch-case-fall-through": false,  // now supported by TypeScript compiler
-    "no-unused-imports": false             // use tslint no-unused-variable rule instead
+    "no-unused-imports": false,            // use tslint no-unused-variable rule instead
+//    "no-unused-variable": false,           // now supported by TypeScript 2.0 compiler
+    "typeof-compare": false                // the valid-typeof rule is currently superior to this version
   },
   "rulesDirectory": [
     "node_modules/tslint-microsoft-contrib"
