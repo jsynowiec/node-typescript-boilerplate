@@ -7,7 +7,7 @@
     "node": ">= 6.9.0"
   },
   "devDependencies": {
-    "@types/jest": "~18.1.0",
+    "@types/jest": "~18.1.1",
     "@types/node": "~6.0.64",
     "jest": "~19.0.2",
     "rimraf": "~2.6.1",
