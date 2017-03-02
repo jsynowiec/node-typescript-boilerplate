@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@types/jest": "~18.1.0",
-    "@types/node": "~6.0.62",
+    "@types/node": "~6.0.64",
     "jest": "~19.0.0",
     "rimraf": "~2.6.1",
     "tslint": "~4.5.1",
