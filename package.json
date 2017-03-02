@@ -13,7 +13,7 @@
     "rimraf": "~2.5.4",
     "tslint": "~4.4.2",
     "tslint-microsoft-contrib": "~4.0.0",
-    "typescript": "~2.1.5"
+    "typescript": "~2.2.1"
   },
   "scripts": {
     "clean": "rimraf coverage build tmp",
@@ -54,6 +54,6 @@
     ]
   },
   "dependencies": {
-    "tslib": "~1.5.0"
+    "tslib": "~1.6.0"
   }
 }
