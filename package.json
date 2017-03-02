@@ -11,7 +11,7 @@
     "@types/node": "~6.0.62",
     "jest": "~18.1.0",
     "rimraf": "~2.5.4",
-    "tslint": "~4.4.2",
+    "tslint": "~4.5.1",
     "tslint-microsoft-contrib": "~4.0.0",
     "typescript": "~2.2.1"
   },
