@@ -19,16 +19,16 @@ Provides a basic template, batteries included:
 
 + [TypeScript][typescript] to ES6 transpilation,
 + [TSLint][tslint] with a general recommendation for a good default configuration, 
-+ [Jest][jest] unit testing and coverage,
++ [Jest][jest] unit testing and code coverage,
 + Type definitions for Node.js v6.x (LTS) and Jest,
 + [NPM scripts for common operations](#available-scripts),
 + .editorconfig for consistent file format.
 
 ## Quick start
 
-This project is intended to be used with [Node.js v6.x (LTS)][nodejs] or later (but should work with any 6.2 or newer release) and [NPM][npm]. Make sure you have those installed. Then just type following commands:
+This project is intended to be used with [Node.js v6.x (LTS)][nodejs] or later (but should work with any v6.2 or newer release) and [NPM][npm]. Make sure you have those installed. Then just type following commands:
 
-```
+```sh
 git clone https://github.com/jsynowiec/node-typescript-boilerplate
 cd node-typescript-boilerplate
 npm install
