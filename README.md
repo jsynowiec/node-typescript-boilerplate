@@ -13,20 +13,20 @@
 
 # node-typescript-boilerplate
 
-Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] [2.1][typescript-21].
+Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] [2.2][typescript-22].
 
 Provides a basic template, batteries included:
 
 + [TypeScript][typescript] to ES6 transpilation,
 + [TSLint][tslint] with a general recommendation for a good default configuration, 
 + [Jest][jest] unit testing and coverage,
-+ Type definitions for Node.js v6.9 (LTS) and Jest,
++ Type definitions for Node.js v6.x (LTS) and Jest,
 + [NPM scripts for common operations](#available-scripts),
 + .editorconfig for consistent file format.
 
 ## Quick start
 
-This project is intended to be used with [Node.js v6.9.0 (LTS)][nodejs] or later (but should work with any 6.2 or newer release) and [NPM][npm]. Make sure you have those installed. Then just type following commands:
+This project is intended to be used with [Node.js v6.x (LTS)][nodejs] or later (but should work with any 6.2 or newer release) and [NPM][npm]. Make sure you have those installed. Then just type following commands:
 
 ```
 git clone https://github.com/jsynowiec/node-typescript-boilerplate
@@ -65,7 +65,7 @@ MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boil
 [travis-badge]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate.svg?branch=master
 [travis-ci]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate
 [typescript]: https://www.typescriptlang.org/
-[typescript-21]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-1.html
+[typescript-22]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-2.html
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
