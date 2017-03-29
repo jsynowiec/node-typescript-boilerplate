@@ -1,20 +1,12 @@
 {
+  "extends": "./tsconfig.json",
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "moduleResolution": "node",
     "sourceMap": false,
     "declaration": false,
-    "noImplicitAny": false,
     "rootDir": ".",
     "outDir": "build",
-    "allowSyntheticDefaultImports": true,
     "removeComments": true,
-    "jsx": "react",
-    "allowJs": true,
-    "importHelpers": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "jsx": "react"
   },
   "include": [
     "src/**/*"
