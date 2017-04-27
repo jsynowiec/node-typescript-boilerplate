@@ -9,7 +9,9 @@
     "allowJs": true,
     "importHelpers": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true
   },
   "include": [
     "src/**/*",

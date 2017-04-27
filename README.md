@@ -13,7 +13,7 @@
 
 # node-typescript-boilerplate
 
-Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] [2.2][typescript-22].
+Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] [2.3][typescript-23].
 
 Provides a basic template, batteries included:
 
@@ -65,7 +65,7 @@ MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boil
 [travis-badge]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate.svg?branch=master
 [travis-ci]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate
 [typescript]: https://www.typescriptlang.org/
-[typescript-22]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-2.html
+[typescript-23]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-3.html
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
