@@ -12,7 +12,7 @@
     "jest": "~19.0.2",
     "rimraf": "~2.6.1",
     "tslint": "~4.5.1",
-    "tslint-microsoft-contrib": "~4.0.0",
+    "tslint-microsoft-contrib": "~4.0.1",
     "typescript": "~2.3.1"
   },
   "scripts": {

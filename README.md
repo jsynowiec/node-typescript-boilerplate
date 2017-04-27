@@ -17,8 +17,8 @@ Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScrip
 
 Provides a basic template, batteries included:
 
-+ [TypeScript][typescript] to ES6 transpilation,
-+ [TSLint][tslint] with a general recommendation for a good default configuration, 
++ [TypeScript][typescript] 2.3 to ES6 transpilation,
++ [TSLint][tslint] 4.x with a general recommendation for a good default configuration (*Note: TSLint >= 5.x is not yet supported by [tslint-microsoft-contrib][slint-microsoft-contrib]*),
 + [Jest][jest] unit testing and code coverage,
 + Type definitions for Node.js v6.x (LTS) and Jest,
 + [NPM scripts for common operations](#available-scripts),
@@ -80,6 +80,7 @@ MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boil
 [twitter-badge]: https://img.shields.io/twitter/url/https/jsynowiec/node-typescript-boilerplate.svg?style=social
 [jest]: https://facebook.github.io/jest/
 [tslint]: https://palantir.github.io/tslint/
+[slint-microsoft-contrib]: https://github.com/Microsoft/tslint-microsoft-contrib
 
 [flow-boilerplate]: https://github.com/jsynowiec/node-flowtype-boilerplate
 [wiki-js-tests]: https://github.com/jsynowiec/node-typescript-boilerplate/wiki/Unit-tests-in-plain-JavaScript
