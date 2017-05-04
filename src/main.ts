@@ -10,7 +10,7 @@ function delayedHello(name: string, delay: number = 2000): Promise<string> {
 }
 
 // Below is an example of using TSLint errors suppression
-// Here it's supressing mising type definitions for greeter function
+// Here it's supressing missing type definitions for greeter function
 
 export default async function greeter(name) { // tslint:disable-line typedef
   return await delayedHello(name);
