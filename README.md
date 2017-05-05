@@ -22,6 +22,7 @@ Provides a basic template, batteries included:
 + [Jest][jest] unit testing and code coverage,
 + Type definitions for Node.js v6.x (LTS) and Jest,
 + [NPM scripts for common operations](#available-scripts),
++ a simple example of TypeScript code and unit test,
 + .editorconfig for consistent file format.
 
 ## Quick start
