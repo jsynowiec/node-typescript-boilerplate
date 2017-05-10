@@ -22,6 +22,7 @@ Provides a basic template, batteries included:
 + [Jest][jest] unit testing and code coverage,
 + Type definitions for Node.js v6.x (LTS) and Jest,
 + [NPM scripts for common operations](#available-scripts),
++ a simple example of TypeScript code and unit test,
 + .editorconfig for consistent file format.
 
 ## Quick start
@@ -32,6 +33,13 @@ This project is intended to be used with [Node.js v6.x (LTS)][nodejs] or later (
 git clone https://github.com/jsynowiec/node-typescript-boilerplate
 cd node-typescript-boilerplate
 npm install
+```
+
+or just download and unzip current `master` branch:
+
+```sh
+wget https://github.com/jsynowiec/node-typescript-boilerplate/archive/master.zip -O node-typescript-boilerplate
+unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 ```
 
 ### Unit tests in JavaScript
