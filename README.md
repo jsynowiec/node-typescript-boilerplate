@@ -18,7 +18,7 @@ Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScrip
 Provides a basic template, batteries included:
 
 + [TypeScript][typescript] 2.3 to ES6 transpilation,
-+ [TSLint][tslint] 4.x with a general recommendation for a good default configuration (*Note: TSLint >= 5.x is not yet supported by [tslint-microsoft-contrib][slint-microsoft-contrib]*),
++ [TSLint][tslint] 5.x with [Microsoft recommended rules][slint-microsoft-contrib],
 + [Jest][jest] unit testing and code coverage,
 + Type definitions for Node.js v6.x (LTS) and Jest,
 + [NPM scripts for common operations](#available-scripts),

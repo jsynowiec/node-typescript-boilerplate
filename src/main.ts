@@ -6,12 +6,17 @@
  * @returns {Promise<string>}
  */
 function delayedHello(name: string, delay: number = 2000): Promise<string> {
-  return new Promise((resolve) => setTimeout(() => resolve(`Hello, ${name}`), delay));
+  return new Promise(
+    (resolve: (value?: {} | PromiseLike<{}>) => void) => setTimeout(
+      () => resolve(`Hello, ${name}`),
+      delay
+    )
+  );
 }
 
 // Below is an example of using TSLint errors suppression
 // Here it's supressing missing type definitions for greeter function
 
-export default async function greeter(name) { // tslint:disable-line typedef
-  return await delayedHello(name);
+export async function greeter(name) { // tslint:disable-line typedef
+  return await delayedHello(name); // tslint:disable-line no-unsafe-any
 }
