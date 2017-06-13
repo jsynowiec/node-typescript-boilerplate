@@ -14,7 +14,7 @@
     "tslint": "~5.4.3",
     "tslint-microsoft-contrib": "~5.0.0",
     "tsutils": "~2.4.0",
-    "typescript": "~2.3.2"
+    "typescript": "~2.3.4"
   },
   "scripts": {
     "clean": "rimraf coverage build tmp",
@@ -37,6 +37,6 @@
   },
   "homepage": "https://github.com/jsynowiec/node-typescript-boilerplate#readme",
   "dependencies": {
-    "tslib": "~1.7.0"
+    "tslib": "~1.7.1"
   }
 }
