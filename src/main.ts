@@ -6,8 +6,8 @@
  * @returns {Promise<string>}
  */
 function delayedHello(name: string, delay: number = 2000): Promise<string> {
-  return new Promise(
-    (resolve: (value?: {} | PromiseLike<{}>) => void) => setTimeout(
+  return new Promise<string>(
+    (resolve: (value?: string | PromiseLike<string>) => void) => setTimeout(
       () => resolve(`Hello, ${name}`),
       delay
     )
