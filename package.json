@@ -12,8 +12,8 @@
     "jest": "~20.0.0",
     "rimraf": "~2.6.1",
     "tslint": "~5.4.3",
-    "tslint-microsoft-contrib": "~5.0.0",
-    "tsutils": "~2.4.0",
+    "tslint-microsoft-contrib": "~5.0.1",
+    "tsutils": "~2.5.1",
     "typescript": "~2.4.1"
   },
   "scripts": {
