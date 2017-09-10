@@ -13,12 +13,12 @@
 
 # node-typescript-boilerplate
 
-Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] [2.4][typescript-24].
+Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] [2.5][typescript-25].
 
 Provides a basic template, "batteries included":
 
-+ [TypeScript][typescript] [2.4][typescript-24] to ES6 transpilation,
-+ [TSLint][tslint] 5.x with [Microsoft recommended rules][slint-microsoft-contrib],
++ [TypeScript][typescript] [2.5][typescript-25] to ES6 transpilation,
++ [TSLint][tslint] 5.x with [Microsoft recommended rules][tslint-microsoft-contrib],
 + [Jest][jest] unit testing and code coverage,
 + Type definitions for Node.js v6.x (LTS) and Jest,
 + [NPM scripts for common operations](#available-scripts),
@@ -41,6 +41,8 @@ or just download and unzip current `master` branch:
 wget https://github.com/jsynowiec/node-typescript-boilerplate/archive/master.zip -O node-typescript-boilerplate
 unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 ```
+
+Now start adding your code in the `src` and unit tests in the `__tests__` directories. Have fun and build amazing things 🤗
 
 ### Unit tests in JavaScript
 
@@ -73,7 +75,7 @@ MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boil
 [travis-badge]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate.svg?branch=master
 [travis-ci]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate
 [typescript]: https://www.typescriptlang.org/
-[typescript-24]: https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#typescript-24
+[typescript-25]: https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#typescript-25
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
@@ -88,7 +90,7 @@ MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boil
 [twitter-badge]: https://img.shields.io/twitter/url/https/jsynowiec/node-typescript-boilerplate.svg?style=social
 [jest]: https://facebook.github.io/jest/
 [tslint]: https://palantir.github.io/tslint/
-[slint-microsoft-contrib]: https://github.com/Microsoft/tslint-microsoft-contrib
+[tslint-microsoft-contrib]: https://github.com/Microsoft/ttslint-microsoft-contrib
 
 [flow-boilerplate]: https://github.com/jsynowiec/node-flowtype-boilerplate
 [wiki-js-tests]: https://github.com/jsynowiec/node-typescript-boilerplate/wiki/Unit-tests-in-plain-JavaScript
