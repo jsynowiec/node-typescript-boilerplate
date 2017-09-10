@@ -14,6 +14,13 @@
     "export-name": false,
     "promise-function-async": false,
     "no-void-expression": false,
+    "trailing-comma": [ // https://palantir.github.io/tslint/rules/trailing-comma/
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ],
     "typedef": [
       true,
       "parameter",
