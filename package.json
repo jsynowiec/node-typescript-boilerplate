@@ -7,9 +7,9 @@
     "node": ">= 6.9.0"
   },
   "devDependencies": {
-    "@types/jest": "~20.0.8",
+    "@types/jest": "~21.1.1",
     "@types/node": "~6.0.88",
-    "jest": "~21.0.2",
+    "jest": "~21.2.0",
     "rimraf": "~2.6.2",
     "tslint": "~5.7.0",
     "tslint-microsoft-contrib": "~5.0.1",
