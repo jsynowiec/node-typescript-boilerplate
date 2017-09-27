@@ -3,7 +3,7 @@
 [![NPM version][npm-badge]][npm]
 [![Build Status][travis-badge]][travis-ci]
 
-[![MIT License][license-badge]][LICENSE]
+[![APLv2][license-badge]][LICENSE]
 [![PRs Welcome][prs-badge]][prs]
 [![Donate][donate-badge]][donate]
 
@@ -64,7 +64,7 @@ This is **optional**, but if you want to learn how to write JavaScript tests for
 As an alternative to TypeScript, you can try my [Node.js Flow boilerplate][flow-boilerplate]. It's basically the same but with ES6, async/await, Flow type checking and ESLint.
 
 ## License
-MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) file.
+Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) file for details.
 
 [dependencies-badge]: https://david-dm.org/jsynowiec/node-typescript-boilerplate/dev-status.svg
 [dependencies]: https://david-dm.org/jsynowiec/node-typescript-boilerplate?type=dev
@@ -76,7 +76,7 @@ MIT License. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boil
 [travis-ci]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate
 [typescript]: https://www.typescriptlang.org/
 [typescript-25]: https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#typescript-25
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
 [prs]: http://makeapullrequest.com
