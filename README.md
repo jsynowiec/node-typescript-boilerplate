@@ -20,14 +20,14 @@ Provides a basic template, "batteries included":
 + [TypeScript][typescript] [2.5][typescript-25] to ES6 transpilation,
 + [TSLint][tslint] 5.x with [Microsoft recommended rules][tslint-microsoft-contrib],
 + [Jest][jest] unit testing and code coverage,
-+ Type definitions for Node.js v6.x (LTS) and Jest,
++ Type definitions for Node.js v6.9 (LTS) and Jest,
 + [NPM scripts for common operations](#available-scripts),
 + a simple example of TypeScript code and unit test,
 + .editorconfig for consistent file format.
 
 ## Quick start
 
-This project is intended to be used with latest LTS release of [Node.js][nodejs] or later and [NPM][npm]. Make sure you have those installed. Then just type following commands:
+This project is intended to be used with v6.9 (LTS) release of [Node.js][nodejs] or newer and [NPM][npm]. Make sure you have those installed. Then just type following commands:
 
 ```sh
 git clone https://github.com/jsynowiec/node-typescript-boilerplate
@@ -68,7 +68,7 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 
 [dependencies-badge]: https://david-dm.org/jsynowiec/node-typescript-boilerplate/dev-status.svg
 [dependencies]: https://david-dm.org/jsynowiec/node-typescript-boilerplate?type=dev
-[nodejs-badge]: https://img.shields.io/badge/node->=%206.9.0-blue.svg
+[nodejs-badge]: https://img.shields.io/badge/node->=%206.9-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v6.x/docs/api/
 [npm-badge]: https://img.shields.io/badge/npm->=%203.10.8-blue.svg
 [npm]: https://docs.npmjs.com/
