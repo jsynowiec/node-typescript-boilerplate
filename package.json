@@ -27,7 +27,7 @@
     "test:watch": "jest --watch"
   },
   "author": "Jakub Synowiec <github@jakubsynowiec.info>",
-  "license": "MIT",
+  "license": "APLv2",
   "repository": {
     "type": "git",
     "url": "https://github.com/jsynowiec/node-typescript-boilerplate.git"
