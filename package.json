@@ -37,6 +37,6 @@
   },
   "homepage": "https://github.com/jsynowiec/node-typescript-boilerplate#readme",
   "dependencies": {
-    "tslib": "~1.7.1"
+    "tslib": "~1.8.0"
   }
 }
