@@ -13,8 +13,8 @@
     "rimraf": "~2.6.2",
     "tslint": "~5.8.0",
     "tslint-microsoft-contrib": "~5.0.1",
-    "tsutils": "~2.12.2",
-    "typescript": "~2.6.1"
+    "tsutils": "~2.13.1",
+    "typescript": "~2.6.2"
   },
   "scripts": {
     "clean": "rimraf coverage build tmp",
