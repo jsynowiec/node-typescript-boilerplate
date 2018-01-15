@@ -27,6 +27,6 @@ function delayedHello(name: string, delay: number = Delays.Medium): Promise<stri
 // Here it is supressing missing type definitions for greeter function
 
 export async function greeter(name) { // tslint:disable-line typedef
-  // tslint:disable-next-line no-unsafe-any
+  // tslint:disable-next-line no-unsafe-any no-return-await
   return await delayedHello(name, Delays.Long);
 }
