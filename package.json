@@ -13,7 +13,7 @@
     "rimraf": "~2.6.2",
     "tslint": "~5.9.1",
     "tslint-microsoft-contrib": "~5.0.2",
-    "tsutils": "~2.13.1",
+    "tsutils": "~2.18.0",
     "typescript": "~2.6.2"
   },
   "scripts": {
