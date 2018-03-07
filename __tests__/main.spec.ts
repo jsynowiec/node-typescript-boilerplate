@@ -17,8 +17,8 @@ describe('greeter function', () => {
 
   // Assert if setTimeout was called properly
   it('delays the greeting by 2 seconds', () => {
-    expect((<jest.Mock<void>> setTimeout).mock.calls.length).toBe(1);
-    expect((<jest.Mock<void>> setTimeout).mock.calls[0][1]).toBe(Delays.Long);
+    expect(setTimeout).toHaveBeenCalledTimes(1);
+    expect((setTimeout as Function as jest.Mock).mock.calls[0][1]).toBe(Delays.Long);
   });
 
   // Assert greeter result

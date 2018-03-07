@@ -15,7 +15,7 @@ export enum Delays {
  * @returns {Promise<string>}
  */
 function delayedHello(name: string, delay: number = Delays.Medium): Promise<string> {
-  return new Promise<string>(
+  return new Promise(
     (resolve: (value?: string | PromiseLike<string>) => void) => setTimeout(
       () => resolve(`Hello, ${name}`),
       delay,
