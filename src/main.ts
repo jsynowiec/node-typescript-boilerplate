@@ -24,7 +24,7 @@ function delayedHello(name: string, delay: number = Delays.Medium): Promise<stri
 }
 
 // Below are examples of using TSLint errors suppression
-// Here it is supressing missing type definitions for greeter function
+// Here it is suppressing missing type definitions for greeter function
 
 export async function greeter(name) { // tslint:disable-line typedef
   // tslint:disable-next-line no-unsafe-any no-return-await
