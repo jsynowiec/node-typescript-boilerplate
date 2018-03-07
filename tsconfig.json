@@ -4,9 +4,9 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "jsx": "preserve",
     "allowJs": true,
     "importHelpers": true,
+    "jsx": "react",
     "alwaysStrict": true,
     "sourceMap": true,
     "forceConsistentCasingInFileNames": true,
@@ -16,8 +16,7 @@
     "noUnusedParameters": true,
     "noImplicitAny": false,
     "noImplicitThis": false,
-    "strictNullChecks": false,
-    "declaration": true
+    "strictNullChecks": false
   },
   "include": [
     "src/**/*",

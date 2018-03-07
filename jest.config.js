@@ -1,13 +1,15 @@
 module.exports = {
   testEnvironment: 'node',
   transform: {
-    '.(ts|tsx)': '<rootDir>/preprocessor.js'
+    "^.+\\.tsx?$": "ts-jest"
   },
   moduleFileExtensions: [
-    'ts',
-    'tsx',
-    'js',
-    'jsx',
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "json",
+    "node",
   ],
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(ts|js)x?$',
   coverageDirectory: 'coverage',
