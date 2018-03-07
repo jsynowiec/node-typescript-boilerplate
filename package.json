@@ -29,14 +29,6 @@
   },
   "author": "Jakub Synowiec <github@jakubsynowiec.info>",
   "license": "APLv2",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jsynowiec/node-typescript-boilerplate.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jsynowiec/node-typescript-boilerplate/issues"
-  },
-  "homepage": "https://github.com/jsynowiec/node-typescript-boilerplate#readme",
   "dependencies": {
     "tslib": "~1.9.0"
   }
