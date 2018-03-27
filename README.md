@@ -13,11 +13,11 @@
 
 # node-typescript-boilerplate
 
-Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] [2.7][typescript-27].
+Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] [2.8][typescript-28].
 
 Provides a basic template, "batteries included":
 
-+ [TypeScript][typescript] [2.7][typescript-27] to ES6 transpilation,
++ [TypeScript][typescript] [2.8][typescript-28] to ES6 transpilation,
 + [TSLint][tslint] 5.x with [Microsoft recommended rules][tslint-microsoft-contrib],
 + [Jest][jest] unit testing and code coverage,
 + Type definitions for Node.js v8.x and Jest,
@@ -75,7 +75,7 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [travis-badge]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate.svg?branch=master
 [travis-ci]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate
 [typescript]: https://www.typescriptlang.org/
-[typescript-27]: https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#typescript-27
+[typescript-28]: https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#typescript-28
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg

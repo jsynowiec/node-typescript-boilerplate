@@ -7,15 +7,15 @@
     "node": ">= 8.9.0"
   },
   "devDependencies": {
-    "@types/jest": "~22.2.0",
-    "@types/node": "~8.5.10",
-    "jest": "~22.4.2",
+    "@types/jest": "~22.2.2",
+    "@types/node": "~8.10.0",
+    "jest": "~22.4.3",
     "rimraf": "~2.6.2",
-    "ts-jest": "~22.4.1",
+    "ts-jest": "~22.4.2",
     "tslint": "~5.9.1",
     "tslint-microsoft-contrib": "~5.0.3",
-    "tsutils": "~2.21.2",
-    "typescript": "~2.7.2"
+    "tsutils": "~2.24.0",
+    "typescript": "~2.8.1"
   },
   "scripts": {
     "clean": "rimraf coverage build tmp",
