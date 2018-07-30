@@ -7,15 +7,15 @@
     "node": ">= 8.9.0"
   },
   "devDependencies": {
-    "@types/jest": "~22.2.3",
-    "@types/node": "~8.10.18",
-    "jest": "~23.1.0",
+    "@types/jest": "~23.3.1",
+    "@types/node": "~8.10.22",
+    "jest": "~23.4.2",
     "rimraf": "~2.6.2",
-    "ts-jest": "~22.4.6",
-    "tslint": "~5.10.0",
-    "tslint-microsoft-contrib": "~5.0.3",
-    "tsutils": "~2.27.1",
-    "typescript": "~2.9.1"
+    "ts-jest": "~23.0.1",
+    "tslint": "~5.11.0",
+    "tslint-microsoft-contrib": "~5.1.0",
+    "tsutils": "~3.0.0",
+    "typescript": "~3.0.1"
   },
   "scripts": {
     "clean": "rimraf coverage build tmp",
@@ -30,6 +30,6 @@
   "author": "Jakub Synowiec <github@jakubsynowiec.info>",
   "license": "APLv2",
   "dependencies": {
-    "tslib": "~1.9.2"
+    "tslib": "~1.9.3"
   }
 }

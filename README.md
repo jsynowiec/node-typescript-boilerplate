@@ -13,12 +13,12 @@
 
 # node-typescript-boilerplate
 
-Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] [2.9][typescript-29].
+Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] [3.0][typescript-30].
 
-Provides a basic template, "batteries included":
+What's included:
 
-+ [TypeScript][typescript] [2.9][typescript-29] to ES6 transpilation,
-+ [TSLint][tslint] 5.x with [Microsoft recommended rules][tslint-microsoft-contrib],
++ [TypeScript][typescript] [3.0][typescript-30] to ES6 transpilation,
++ [TSLint][tslint] 5 with [Microsoft recommended rules][tslint-microsoft-contrib],
 + [Jest][jest] unit testing and code coverage,
 + Type definitions for Node.js v8 and Jest,
 + [NPM scripts for common operations](#available-scripts),
@@ -54,7 +54,7 @@ This is **optional**, but if you want to learn how to write JavaScript tests for
 
 + `clean` - remove coverage data, Jest cache and transpiled files,
 + `build` - transpile TypeScript to ES6,
-+ `watch` - interactive watch mode to automatically transpile source files, 
++ `watch` - interactive watch mode to automatically transpile source files,
 + `lint` - lint source files and tests,
 + `test` - run tests,
 + `test:watch` - interactive watch mode to automatically re-run tests
@@ -75,7 +75,7 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [travis-badge]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate.svg?branch=master
 [travis-ci]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate
 [typescript]: https://www.typescriptlang.org/
-[typescript-29]: https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#typescript-29
+[typescript-30]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-0.html
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
