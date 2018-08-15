@@ -17,10 +17,11 @@ Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScrip
 
 What's included:
 
-+ [TypeScript][typescript] [3.0][typescript-30] to ES6 transpilation,
-+ [TSLint][tslint] 5 with [Microsoft recommended rules][tslint-microsoft-contrib],
++ [TypeScript][typescript] [3.0][typescript-30],
++ [TSLint 5][tslint] with [Microsoft rules][tslint-microsoft-contrib],
 + [Jest][jest] unit testing and code coverage,
 + Type definitions for Node.js v8 and Jest,
++ [Prettier][prettier] to enforces a consistent code style (but it's optional),
 + [NPM scripts for common operations](#available-scripts),
 + a simple example of TypeScript code and unit test,
 + .editorconfig for consistent file format.
@@ -93,3 +94,4 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [tslint-microsoft-contrib]: https://github.com/Microsoft/tslint-microsoft-contrib
 [flow-boilerplate]: https://github.com/jsynowiec/node-flowtype-boilerplate
 [wiki-js-tests]: https://github.com/jsynowiec/node-typescript-boilerplate/wiki/Unit-tests-in-plain-JavaScript
+[prettier]: https://prettier.io
