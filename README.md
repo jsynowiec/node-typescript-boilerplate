@@ -1,9 +1,7 @@
-[![Dev dependencies][dependencies-badge]][dependencies]
+[![TypeScript version][ts-badge]][typescript-30]
 [![Node.js version][nodejs-badge]][nodejs]
-[![NPM version][npm-badge]][npm]
-[![Build Status][travis-badge]][travis-ci]
-
 [![APLv2][license-badge]][LICENSE]
+[![Build Status][travis-badge]][travis-ci]
 [![PRs Welcome][prs-badge]][prs]
 [![Donate][donate-badge]][donate]
 
@@ -67,12 +65,9 @@ As an alternative to TypeScript, you can try my [Node.js Flow boilerplate][flow-
 ## License
 Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) file for details.
 
-[dependencies-badge]: https://david-dm.org/jsynowiec/node-typescript-boilerplate/dev-status.svg
-[dependencies]: https://david-dm.org/jsynowiec/node-typescript-boilerplate?type=dev
-[nodejs-badge]: https://img.shields.io/badge/node->=%208.9-blue.svg
+[ts-badge]: https://img.shields.io/badge/TypeScript-3.0-blue.svg
+[nodejs-badge]: https://img.shields.io/badge/Node.js->=%208.9-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v8.x/docs/api/
-[npm-badge]: https://img.shields.io/badge/npm->=%205.5.1-blue.svg
-[npm]: https://docs.npmjs.com/
 [travis-badge]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate.svg?branch=master
 [travis-ci]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate
 [typescript]: https://www.typescriptlang.org/
