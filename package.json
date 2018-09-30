@@ -30,7 +30,7 @@
     "test:watch": "jest --watch"
   },
   "author": "Jakub Synowiec <github@jakubsynowiec.info>",
-  "license": "APLv2",
+  "license": "Apache-2.0",
   "dependencies": {
     "tslib": "~1.9.3"
   }
