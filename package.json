@@ -22,11 +22,9 @@
   "scripts": {
     "clean": "rimraf coverage build tmp",
     "build": "tsc -p tsconfig.release.json",
-    "watch": "tsc -w -p tsconfig.release.json",
+    "build:watch": "tsc -w -p tsconfig.release.json",
     "lint": "tslint -t stylish --project \"tsconfig.json\"",
-    "pretest": "npm run lint",
-    "test": "npm run test-only",
-    "test-only": "jest --coverage",
+    "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
   "author": "Jakub Synowiec <github@jakubsynowiec.info>",
