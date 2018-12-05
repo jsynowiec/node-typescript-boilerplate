@@ -7,8 +7,8 @@
     "node": ">= 10.13 <11"
   },
   "devDependencies": {
-    "@types/jest": "~23.3.9",
-    "@types/node": "~10",
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10",
     "jest": "~23.6.0",
     "prettier": "1.15.2",
     "rimraf": "~2.6.2",
