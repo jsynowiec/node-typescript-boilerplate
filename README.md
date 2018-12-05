@@ -18,7 +18,7 @@ What's included:
 + [TypeScript][typescript] [3.2][typescript-32],
 + [TSLint][tslint] with [Microsoft rules][tslint-microsoft-contrib],
 + [Jest][jest] unit testing and code coverage,
-+ Type definitions for Node.js v8 and Jest,
++ Type definitions for Node.js and Jest,
 + [Prettier][prettier] to enforce a consistent code style,
 + [NPM scripts for common operations](#available-scripts),
 + a simple example of TypeScript code and unit test,
