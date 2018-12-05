@@ -2,8 +2,18 @@
   "name": "node-typescript-boilerplate",
   "version": "0.0.0",
   "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
-  "engines": {
-    "node": ">= 10.13 <11"
+  "license": "Apache-2.0",
+  "author": "Jakub Synowiec <github@jakubsynowiec.info>",
+  "scripts": {
+    "clean": "rimraf coverage build tmp",
+    "build": "tsc -p tsconfig.release.json",
+    "build:watch": "tsc -w -p tsconfig.release.json",
+    "lint": "tslint -t stylish --project \"tsconfig.json\"",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "tslib": "~1.9.3"
   },
   "devDependencies": {
     "@types/jest": "^23.3.10",
@@ -18,17 +28,7 @@
     "tsutils": "~3.5.2",
     "typescript": "~3.2.1"
   },
-  "scripts": {
-    "clean": "rimraf coverage build tmp",
-    "build": "tsc -p tsconfig.release.json",
-    "build:watch": "tsc -w -p tsconfig.release.json",
-    "lint": "tslint -t stylish --project \"tsconfig.json\"",
-    "test": "jest --coverage",
-    "test:watch": "jest --watch"
-  },
-  "author": "Jakub Synowiec <github@jakubsynowiec.info>",
-  "license": "Apache-2.0",
-  "dependencies": {
-    "tslib": "~1.9.3"
+  "engines": {
+    "node": ">= 10.13 <11"
   }
 }
