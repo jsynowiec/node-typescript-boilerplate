@@ -58,10 +58,6 @@ This is **optional**, but if you want to learn how to write JavaScript tests for
 + `test` - run tests,
 + `test:watch` - interactive watch mode to automatically re-run tests
 
-## Alternative
-
-As an alternative to TypeScript, you can try my [Node.js Flow boilerplate][flow-boilerplate]. It's basically the same but with ES6, async/await, Flow type checking and ESLint.
-
 ## License
 Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) file for details.
 
@@ -87,6 +83,5 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [jest]: https://facebook.github.io/jest/
 [tslint]: https://palantir.github.io/tslint/
 [tslint-microsoft-contrib]: https://github.com/Microsoft/tslint-microsoft-contrib
-[flow-boilerplate]: https://github.com/jsynowiec/node-flowtype-boilerplate
 [wiki-js-tests]: https://github.com/jsynowiec/node-typescript-boilerplate/wiki/Unit-tests-in-plain-JavaScript
 [prettier]: https://prettier.io
