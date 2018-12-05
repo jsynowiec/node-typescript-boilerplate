@@ -1,4 +1,4 @@
-[![TypeScript version][ts-badge]][typescript-31]
+[![TypeScript version][ts-badge]][typescript-32]
 [![Node.js version][nodejs-badge]][nodejs]
 [![APLv2][license-badge]][LICENSE]
 [![Build Status][travis-badge]][travis-ci]
@@ -11,15 +11,15 @@
 
 # node-typescript-boilerplate
 
-Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] [3.1][typescript-31].
+Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] [3.2][typescript-32].
 
 What's included:
 
-+ [TypeScript][typescript] [3.1][typescript-31],
-+ [TSLint 5][tslint] with [Microsoft rules][tslint-microsoft-contrib],
++ [TypeScript][typescript] [3.2][typescript-32],
++ [TSLint][tslint] with [Microsoft rules][tslint-microsoft-contrib],
 + [Jest][jest] unit testing and code coverage,
 + Type definitions for Node.js v8 and Jest,
-+ [Prettier][prettier] to enforces a consistent code style (but it's optional),
++ [Prettier][prettier] to enforce a consistent code style,
 + [NPM scripts for common operations](#available-scripts),
 + a simple example of TypeScript code and unit test,
 + .editorconfig for consistent file format.
@@ -65,13 +65,13 @@ As an alternative to TypeScript, you can try my [Node.js Flow boilerplate][flow-
 ## License
 Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) file for details.
 
-[ts-badge]: https://img.shields.io/badge/TypeScript-3.1-blue.svg
+[ts-badge]: https://img.shields.io/badge/TypeScript-3.2-blue.svg
 [nodejs-badge]: https://img.shields.io/badge/Node.js->=%2010.13-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v10.x/docs/api/
 [travis-badge]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate.svg?branch=master
 [travis-ci]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate
 [typescript]: https://www.typescriptlang.org/
-[typescript-31]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-1.html
+[typescript-32]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-2.html
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
