@@ -2,12 +2,8 @@
 [![Node.js version][nodejs-badge]][nodejs]
 [![APLv2][license-badge]][LICENSE]
 [![Build Status][travis-badge]][travis-ci]
-[![PRs Welcome][prs-badge]][prs]
-[![Donate][donate-badge]][donate]
 
-[![Watch on GitHub][github-watch-badge]][github-watch]
-[![Star on GitHub][github-star-badge]][github-star]
-[![Tweet][twitter-badge]][twitter]
+[![Donate][donate-badge]][donate]
 
 # node-typescript-boilerplate
 
@@ -70,16 +66,10 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [typescript-32]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-2.html
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE
-[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
-[prs]: http://makeapullrequest.com
-[donate-badge]: https://img.shields.io/badge/$-support-green.svg
-[donate]: http://bit.ly/donate-js
-[github-watch-badge]: https://img.shields.io/github/watchers/jsynowiec/node-typescript-boilerplate.svg?style=social
-[github-watch]: https://github.com/jsynowiec/node-typescript-boilerplate/watchers
-[github-star-badge]: https://img.shields.io/github/stars/jsynowiec/node-typescript-boilerplate.svg?style=social
-[github-star]: https://github.com/jsynowiec/node-typescript-boilerplate/stargazers
-[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20this%20Node.js%20TypeScript%20boilerplate!%20https://github.com/jsynowiec/node-typescript-boilerplate%20%F0%9F%91%8D
-[twitter-badge]: https://img.shields.io/twitter/url/https/jsynowiec/node-typescript-boilerplate.svg?style=social
+
+[donate-badge]: https://img.shields.io/badge/☕-buy%20me%20a%20coffee-46b798.svg
+[donate]: https://ko-fi.com/X8X8N42K
+
 [jest]: https://facebook.github.io/jest/
 [tslint]: https://palantir.github.io/tslint/
 [tslint-microsoft-contrib]: https://github.com/Microsoft/tslint-microsoft-contrib
