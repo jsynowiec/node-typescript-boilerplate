@@ -68,7 +68,7 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE
 
 [donate-badge]: https://img.shields.io/badge/☕-buy%20me%20a%20coffee-46b798.svg
-[donate]: https://ko-fi.com/X8X8N42K
+[donate]: https://paypal.me/jaqb/5eur
 
 [jest]: https://facebook.github.io/jest/
 [tslint]: https://palantir.github.io/tslint/
