@@ -5,7 +5,6 @@ describe('greeter function', () => {
   jest.useFakeTimers();
 
   const name: string = 'John';
-
   let hello: string;
 
   // Act before assertions
@@ -18,7 +17,8 @@ describe('greeter function', () => {
   // Assert if setTimeout was called properly
   it('delays the greeting by 2 seconds', () => {
     expect(setTimeout).toHaveBeenCalledTimes(1);
-    expect(((setTimeout as Function) as jest.Mock).mock.calls[0][1]).toBe(
+    expect(setTimeout).toHaveBeenLastCalledWith(
+      expect.any(Function),
       Delays.Long,
     );
   });
