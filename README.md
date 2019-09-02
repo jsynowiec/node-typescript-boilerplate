@@ -1,4 +1,4 @@
-[![TypeScript version][ts-badge]][typescript-35]
+[![TypeScript version][ts-badge]][typescript-36]
 [![Node.js version][nodejs-badge]][nodejs]
 [![APLv2][license-badge]][LICENSE]
 [![Build Status][travis-badge]][travis-ci]
@@ -7,11 +7,11 @@
 
 # node-typescript-boilerplate
 
-Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] [3.5][typescript-35].
+Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScript][typescript] [3.6][typescript-36].
 
 What's included:
 
-+ [TypeScript][typescript] [3.5][typescript-35],
++ [TypeScript][typescript] [3.6][typescript-36],
 + [TSLint][tslint] with [Microsoft rules][tslint-microsoft-contrib],
 + [Jest][jest] unit testing and code coverage,
 + Type definitions for Node.js and Jest,
@@ -57,13 +57,13 @@ This is **optional**, but if you want to learn how to write JavaScript tests for
 ## License
 Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) file for details.
 
-[ts-badge]: https://img.shields.io/badge/TypeScript-3.5-blue.svg
+[ts-badge]: https://img.shields.io/badge/TypeScript-3.6-blue.svg
 [nodejs-badge]: https://img.shields.io/badge/Node.js->=%2010.13-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v10.x/docs/api/
 [travis-badge]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate.svg?branch=master
 [travis-ci]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate
 [typescript]: https://www.typescriptlang.org/
-[typescript-35]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-5.html
+[typescript-36]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-6.html
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE
 
