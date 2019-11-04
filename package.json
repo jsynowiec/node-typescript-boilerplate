@@ -26,8 +26,8 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
-  "author": "Jakub Synowiec <github@jakubsynowiec.info>",
-  "license": "Apache-2.0",
+  "author": "Ishmael Samuel <ishmael@useparagon.com>",
+  "license": "UNLICENSED",
   "dependencies": {
     "tslib": "~1.10.0"
   }

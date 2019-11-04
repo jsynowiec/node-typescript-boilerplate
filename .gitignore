@@ -26,5 +26,10 @@ dist/
 # Optional eslint cache
 .eslintcache
 
+# Secure files
+.env
+
 # Misc
 .DS_Store
+tmp/**
+!tmp/.gitkeep
