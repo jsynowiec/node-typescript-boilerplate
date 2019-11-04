@@ -29,6 +29,7 @@
   "author": "Ishmael Samuel <ishmael@useparagon.com>",
   "license": "UNLICENSED",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "tslib": "~1.10.0"
   }
 }
