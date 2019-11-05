@@ -58,8 +58,8 @@ This is **optional**, but if you want to learn how to write JavaScript tests for
 Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) file for details.
 
 [ts-badge]: https://img.shields.io/badge/TypeScript-3.7-blue.svg
-[nodejs-badge]: https://img.shields.io/badge/Node.js->=%2010.13-blue.svg
-[nodejs]: https://nodejs.org/dist/latest-v10.x/docs/api/
+[nodejs-badge]: https://img.shields.io/badge/Node.js->=%2012.13-blue.svg
+[nodejs]: https://nodejs.org/dist/latest-v12.x/docs/api/
 [travis-badge]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate.svg?branch=master
 [travis-ci]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate
 [typescript]: https://www.typescriptlang.org/
