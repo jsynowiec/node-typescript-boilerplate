@@ -22,7 +22,11 @@ What's included:
 
 ## Quick start
 
-This project is intended to be used with the latest Active LTS release of [Node.js][nodejs]. To start, just clone the repository with following commands:
+This project is intended to be used with the latest Active LTS release of [Node.js][nodejs]. 
+
+To start, just click the **Use template** green button, 
+
+or clone the repository with following commands:
 
 ```sh
 git clone https://github.com/jsynowiec/node-typescript-boilerplate
