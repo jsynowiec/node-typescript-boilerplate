@@ -24,7 +24,7 @@ What's included:
 
 This project is intended to be used with the latest Active LTS release of [Node.js][nodejs]. 
 
-To start, just click the **Use template** green button, 
+To start, just click the **[Use template][repo-template-action]** link (or the green button), 
 
 or clone the repository with following commands:
 
@@ -79,3 +79,5 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [tslint-microsoft-contrib]: https://github.com/Microsoft/tslint-microsoft-contrib
 [wiki-js-tests]: https://github.com/jsynowiec/node-typescript-boilerplate/wiki/Unit-tests-in-plain-JavaScript
 [prettier]: https://prettier.io
+
+[repo-template-action]: https://github.com/jsynowiec/node-typescript-boilerplate/generate
