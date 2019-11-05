@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
   "engines": {
-    "node": ">= 10.13 <11"
+    "node": ">= 12.13 <13"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
-    "@types/node": "^10.14.17",
+    "@types/node": "^12.12.5",
     "jest": "~24.9.0",
     "prettier": "~1.18.2",
     "rimraf": "^3.0.0",
