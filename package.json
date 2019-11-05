@@ -16,7 +16,7 @@
     "tslint-config-prettier": "1.18.0",
     "tslint-microsoft-contrib": "~6.2.0",
     "tsutils": "~3.17.0",
-    "typescript": "~3.6.0"
+    "typescript": "~3.7.2"
   },
   "scripts": {
     "clean": "rimraf coverage build tmp",
