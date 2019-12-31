@@ -23,11 +23,10 @@ function delayedHello(
   );
 }
 
-// Below are examples of using TSLint errors suppression
-// Here it is suppressing missing type definitions for greeter function
+// Below are examples of using ESLint errors suppression
+// Here it is suppressing missing return type definitions for greeter function
 
-// tslint:disable-next-line typedef
-export async function greeter(name) {
-  // tslint:disable-next-line no-unsafe-any no-return-await
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+export async function greeter(name: string) {
   return await delayedHello(name, Delays.Long);
 }

@@ -12,7 +12,7 @@ Minimalistic boilerplate to jump-start a [Node.js][nodejs] project in [TypeScrip
 What's included:
 
 + [TypeScript][typescript] [3.7][typescript-37],
-+ [TSLint][tslint] with [Microsoft rules][tslint-microsoft-contrib],
++ [ESLint][eslint] with some initial rules recommendation,
 + [Jest][jest] unit testing and code coverage,
 + Type definitions for Node.js and Jest,
 + [Prettier][prettier] to enforce a consistent code style,
@@ -22,9 +22,9 @@ What's included:
 
 ## Quick start
 
-This project is intended to be used with the latest Active LTS release of [Node.js][nodejs]. 
+This project is intended to be used with the latest Active LTS release of [Node.js][nodejs].
 
-To start, just click the **[Use template][repo-template-action]** link (or the green button), 
+To start, just click the **[Use template][repo-template-action]** link (or the green button),
 
 or clone the repository with following commands:
 
@@ -75,8 +75,7 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [donate]: https://paypal.me/jaqb/5eur
 
 [jest]: https://facebook.github.io/jest/
-[tslint]: https://palantir.github.io/tslint/
-[tslint-microsoft-contrib]: https://github.com/Microsoft/tslint-microsoft-contrib
+[eslint]: https://github.com/eslint/eslint
 [wiki-js-tests]: https://github.com/jsynowiec/node-typescript-boilerplate/wiki/Unit-tests-in-plain-JavaScript
 [prettier]: https://prettier.io
 
