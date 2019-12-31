@@ -6,25 +6,25 @@
     "node": ">= 12.13 <13"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.21",
-    "@types/node": "^12.12.5",
-    "@typescript-eslint/eslint-plugin": "~2.13.0",
-    "@typescript-eslint/parser": "~2.13.0",
+    "@types/jest": "~24.0.25",
+    "@types/node": "~12.12.22",
+    "@typescript-eslint/eslint-plugin": "~2.14.0",
+    "@typescript-eslint/parser": "~2.14.0",
     "eslint": "~6.8.0",
     "eslint-config-prettier": "~6.9.0",
-    "eslint-plugin-jest": "^23.2.0",
+    "eslint-plugin-jest": "~23.2.0",
     "jest": "~24.9.0",
-    "prettier": "~1.18.2",
-    "rimraf": "^3.0.0",
-    "ts-jest": "^24.1.0",
+    "prettier": "~1.19.1",
+    "rimraf": "~3.0.0",
+    "ts-jest": "~24.2.0",
     "tsutils": "~3.17.0",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.4"
   },
   "scripts": {
     "clean": "rimraf coverage build tmp",
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",
-    "lint": "eslint . --ext .ts",
+    "lint": "eslint . --ext .ts,.tsx",
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
