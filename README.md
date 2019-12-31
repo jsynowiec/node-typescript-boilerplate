@@ -3,7 +3,7 @@
 [![APLv2][license-badge]][LICENSE]
 [![Build Status][travis-badge]][travis-ci]
 
-[![Donate][donate-badge]][donate]
+[![Sponsor][sponsor-badge]][sponsor]
 
 # node-typescript-boilerplate
 
@@ -71,8 +71,8 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE
 
-[donate-badge]: https://img.shields.io/badge/☕-buy%20me%20a%20coffee-46b798.svg
-[donate]: https://paypal.me/jaqb/5eur
+[donate-badge]: https://img.shields.io/badge/❤️-Sponsor-46b798.svg
+[donate]: https://github.com/sponsors/jsynowiec
 
 [jest]: https://facebook.github.io/jest/
 [eslint]: https://github.com/eslint/eslint
