@@ -71,7 +71,7 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE
 
-[sponsor-badge]: https://img.shields.io/badge/❤️-Sponsor-46b798.svg
+[sponsor-badge]: https://img.shields.io/badge/♥-Sponsor-46b798.svg
 [sponsor]: https://github.com/sponsors/jsynowiec
 
 [jest]: https://facebook.github.io/jest/
