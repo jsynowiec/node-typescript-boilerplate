@@ -18,7 +18,7 @@
     "rimraf": "~3.0.2",
     "ts-jest": "~25.2.0",
     "tsutils": "~3.17.0",
-    "typescript": "~3.7.5"
+    "typescript": "~3.8.2"
   },
   "scripts": {
     "clean": "rimraf coverage build tmp",
