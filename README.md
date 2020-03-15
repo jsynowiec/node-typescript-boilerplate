@@ -21,7 +21,7 @@
 + .editorconfig for consistent file format
 + example configuration for [GitHub Actions][gh-actions] and [Travis CI][travis]
 
-🤲 Free as in speach: available under the APLv2 license.
+🤲 Free as in speech: available under the APLv2 license.
 
 ## Getting Started
 
