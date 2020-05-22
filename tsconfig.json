@@ -16,7 +16,12 @@
     "noUnusedParameters": true,
     "noImplicitAny": false,
     "noImplicitThis": false,
-    "strictNullChecks": false
+    "strictNullChecks": false,
+    "baseUrl": "./src",
+    "outDir": "../build",
+    "paths": {
+      "~/*": ["./*"]
+    }
   },
   "include": [
     "src/**/*",
