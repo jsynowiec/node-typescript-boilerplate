@@ -18,7 +18,7 @@
     "rimraf": "~3.0.2",
     "ts-jest": "~25.5.1",
     "tsutils": "~3.17.0",
-    "typescript": "~3.8.3"
+    "typescript": "~3.9.2"
   },
   "scripts": {
     "clean": "rimraf coverage build tmp",
@@ -31,6 +31,6 @@
   "author": "Jakub Synowiec <github@jakubsynowiec.info>",
   "license": "Apache-2.0",
   "dependencies": {
-    "tslib": "~1.11.2"
+    "tslib": "~2.0.0"
   }
 }
