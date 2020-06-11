@@ -1,4 +1,4 @@
-[![TypeScript version][ts-badge]][typescript-38]
+[![TypeScript version][ts-badge]][typescript-39]
 [![Node.js version][nodejs-badge]][nodejs]
 [![APLv2][license-badge]][LICENSE]
 [![Build Status - Travis][travis-badge]][travis-ci]
@@ -11,7 +11,7 @@
 
 🏃🏽 Instant Value: All basic tools included and configured:
 
-+ [TypeScript][typescript] [3.8][typescript-38]
++ [TypeScript][typescript] [3.9][typescript-39]
 + [ESLint][eslint] with some initial rules recommendation
 + [Jest][jest] for fast unit testing and code coverage
 + Type definitions for Node.js and Jest
@@ -74,7 +74,7 @@ Support this project by becoming a sponsor.
 ## License
 Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) file for details.
 
-[ts-badge]: https://img.shields.io/badge/TypeScript-3.8-blue.svg
+[ts-badge]: https://img.shields.io/badge/TypeScript-3.9-blue.svg
 [nodejs-badge]: https://img.shields.io/badge/Node.js->=%2012.13-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v12.x/docs/api/
 [travis-badge]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate.svg?branch=master
@@ -82,7 +82,7 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [gha-badge]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fjsynowiec%2Fnode-typescript-boilerplate%2Fbadge&style=flat
 [gha-ci]: https://github.com/jsynowiec/node-typescript-boilerplate/actions
 [typescript]: https://www.typescriptlang.org/
-[typescript-38]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-8.html
+[typescript-39]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-9.html
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE
 
