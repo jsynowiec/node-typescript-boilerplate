@@ -1,4 +1,22 @@
-language: node_js
-node_js:
-  - "12"
-  - "node"
+dist: bionic
+
+cache:
+  npm: true
+  directories:
+    - /home/travis/.volta
+
+env:
+  - CI=true
+
+before_install:
+  - curl https://get.volta.sh | bash
+  - export VOLTA_HOME=$HOME/.volta
+  - export PATH=$VOLTA_HOME:$PATH
+
+install:
+  - npm ci --no-audit
+
+script:
+  - npm run lint --if-present
+  - npm run test
+  - npm run build --if-present
