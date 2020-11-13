@@ -21,6 +21,7 @@
     "typescript": "~4.0.5"
   },
   "scripts": {
+    "start": "node build/src/main.js",
     "clean": "rimraf coverage build tmp",
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",
