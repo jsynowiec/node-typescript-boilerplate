@@ -44,10 +44,10 @@ npm install
 
 ### Download latest release
 
-Download and unzip current `master` branch or one of tags:
+Download and unzip current `main` branch or one of tags:
 
 ```sh
-wget https://github.com/jsynowiec/node-typescript-boilerplate/archive/master.zip -O node-typescript-boilerplate.zip
+wget https://github.com/jsynowiec/node-typescript-boilerplate/archive/main.zip -O node-typescript-boilerplate.zip
 unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 ```
 
@@ -80,19 +80,19 @@ Support this project by becoming a [sponsor][sponsor].
 
 ## License
 
-Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE) file for details.
+Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/main/LICENSE) file for details.
 
 [ts-badge]: https://img.shields.io/badge/TypeScript-4.1-blue.svg
 [nodejs-badge]: https://img.shields.io/badge/Node.js->=%2014.15-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v14.x/docs/api/
-[travis-badge]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate.svg?branch=master
+[travis-badge]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate.svg?branch=main
 [travis-ci]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate
 [gha-badge]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fjsynowiec%2Fnode-typescript-boilerplate%2Fbadge&style=flat
 [gha-ci]: https://github.com/jsynowiec/node-typescript-boilerplate/actions
 [typescript]: https://www.typescriptlang.org/
 [typescript-4-1]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-1.html
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
-[license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/master/LICENSE
+[license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/main/LICENSE
 [sponsor-badge]: https://img.shields.io/badge/♥-Sponsor-fc0fb5.svg
 [sponsor]: https://github.com/sponsors/jsynowiec
 [jest]: https://facebook.github.io/jest/
