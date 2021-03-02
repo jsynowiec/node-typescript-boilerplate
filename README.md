@@ -83,7 +83,7 @@ Support this project by becoming a [sponsor][sponsor].
 Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/main/LICENSE) file for details.
 
 [ts-badge]: https://img.shields.io/badge/TypeScript-4.2-blue.svg
-[nodejs-badge]: https://img.shields.io/badge/Node.js->=%2014.25-blue.svg
+[nodejs-badge]: https://img.shields.io/badge/Node.js->=%2014.16-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v14.x/docs/api/
 [travis-badge]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate.svg?branch=main
 [travis-ci]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate
