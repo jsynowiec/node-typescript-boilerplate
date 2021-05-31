@@ -1,15 +1,15 @@
 import { Delays, greeter } from '../src/main';
 
 describe('greeter function', () => {
-  // Read more about fake timers
-  // http://facebook.github.io/jest/docs/en/timer-mocks.html#content
-  jest.useFakeTimers();
-
   const name = 'John';
   let hello: string;
 
   // Act before assertions
   beforeAll(async () => {
+    // Read more about fake timers
+    // http://facebook.github.io/jest/docs/en/timer-mocks.html#content
+    jest.useFakeTimers('legacy');
+
     const p: Promise<string> = greeter(name);
     jest.runOnlyPendingTimers();
     hello = await p;
