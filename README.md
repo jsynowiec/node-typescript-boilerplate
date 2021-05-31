@@ -2,7 +2,6 @@
 [![TypeScript version][ts-badge]][typescript-4-2]
 [![Node.js version][nodejs-badge]][nodejs]
 [![APLv2][license-badge]][license]
-[![Build Status - Travis][travis-badge]][travis-ci]
 [![Build Status - GitHub Actions][gha-badge]][gha-ci]
 
 # node-typescript-boilerplate
@@ -20,7 +19,7 @@
 - Simple example of TypeScript code and unit test
 - .editorconfig for consistent file format
 - Reproducible environments thanks to [Volta][volta]
-- Example configuration for [GitHub Actions][gh-actions] and [Travis CI][travis]
+- Example configuration for [GitHub Actions][gh-actions]
 
 🤲 Free as in speech: available under the APLv2 license.
 
@@ -85,8 +84,6 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [ts-badge]: https://img.shields.io/badge/TypeScript-4.2-blue.svg
 [nodejs-badge]: https://img.shields.io/badge/Node.js->=%2014.16-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v14.x/docs/api/
-[travis-badge]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate.svg?branch=main
-[travis-ci]: https://travis-ci.org/jsynowiec/node-typescript-boilerplate
 [gha-badge]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml/badge.svg
 [gha-ci]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml
 [typescript]: https://www.typescriptlang.org/
@@ -103,5 +100,4 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [volta-getting-started]: https://docs.volta.sh/guide/getting-started
 [volta-tomdale]: https://twitter.com/tomdale/status/1162017336699838467?s=20
 [gh-actions]: https://github.com/features/actions
-[travis]: https://travis-ci.org
 [repo-template-action]: https://github.com/jsynowiec/node-typescript-boilerplate/generate
