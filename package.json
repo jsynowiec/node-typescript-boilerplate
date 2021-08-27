@@ -30,7 +30,7 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
-  "author": "Jakub Synowiec <github@jakubsynowiec.info>",
+  "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "tslib": "~2.3.0"
