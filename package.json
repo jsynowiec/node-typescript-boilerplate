@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
   "engines": {
-    "node": ">= 14.16 <15"
+    "node": ">= 16.13 <17"
   },
   "devDependencies": {
     "@types/jest": "~27.0.1",
-    "@types/node": "~14.14.45",
+    "@types/node": "~16.11.6",
     "@typescript-eslint/eslint-plugin": "~4.31.1",
     "@typescript-eslint/parser": "~4.31.1",
     "eslint": "~7.32.0",
@@ -36,6 +36,6 @@
     "tslib": "~2.3.1"
   },
   "volta": {
-    "node": "14.17.5"
+    "node": "16.13.0"
   }
 }
