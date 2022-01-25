@@ -25,7 +25,7 @@
 
 ## Getting Started
 
-This project is intended to be used with the latest Active LTS release of [Node.js][nodejs].
+This project is intended to be used for building Alaya packages. This boilerplate will help speed up development and reduce repetitive issues from the foundation of the packages. This project should be used with the latest Active LTS release of [Node.js][nodejs].
 
 ### Use as a repository template
 
@@ -33,7 +33,22 @@ To start, just click the **[Use template][repo-template-action]** link (or the g
 
 ### Clone repository
 
-To clone the repository, use the following commands:
+To use this repository instead Alaya packages, use the following commands:
+
+```sh
+cd packages
+git clone https://github.com/jsynowiec/node-typescript-boilerplate package-name
+cd package-name
+npm install
+```
+
+Next, remove the .git folder for this package so that the parent .git folder will be the basis of the repository.
+
+```
+rm -rf .git
+```
+
+To create a standalone project, clone the repository. Use the following commands:
 
 ```sh
 git clone https://github.com/jsynowiec/node-typescript-boilerplate
