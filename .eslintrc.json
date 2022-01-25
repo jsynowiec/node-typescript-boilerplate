@@ -4,6 +4,7 @@
     "es6": true,
     "node": true
   },
+  "root": true,
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": "tsconfig.json",
@@ -17,5 +18,14 @@
     "plugin:jest/recommended",
     "prettier"
   ],
-  "rules": {}
+  "rules": {},
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "parserOptions": {
+        "project": ["./tsconfig.json"],
+        "sourceType": "module"
+      }
+    }
+  ]
 }
