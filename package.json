@@ -14,14 +14,17 @@
     "eslint-config-prettier": "~8.3.0",
     "eslint-plugin-jest": "~25.3.0",
     "jest": "~27.4.4",
+    "nodemon": "^2.0.15",
     "prettier": "~2.5.1",
     "rimraf": "~3.0.2",
     "ts-jest": "~27.1.1",
+    "ts-node": "^10.4.0",
     "tsutils": "~3.21.0",
     "typescript": "~4.5.3"
   },
   "scripts": {
     "start": "node build/src/main.js",
+    "start:dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/main.ts",
     "clean": "rimraf coverage build tmp",
     "prebuild": "npm run lint",
     "build": "tsc -p tsconfig.release.json",

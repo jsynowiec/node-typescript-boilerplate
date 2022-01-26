@@ -52,6 +52,8 @@ unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 
 ## Available Scripts
 
+- `start` - starts the transpiled application from `build/src/main.js`,
+- `start:dev` - starts the application for local development with live reloading,
 - `clean` - remove coverage data, Jest cache and transpiled files,
 - `prebuild` - lint source files and tests before building,
 - `build` - transpile TypeScript to ES6,
