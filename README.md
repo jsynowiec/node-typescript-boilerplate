@@ -11,6 +11,7 @@
 🏃🏽 Instant Value: All basic tools included and configured:
 
 - [TypeScript][typescript] [4.5][typescript-4-5]
+- [ESM][esm]
 - [ESLint][eslint] with some initial rules recommendation
 - [Jest][jest] for fast unit testing and code coverage
 - Type definitions for Node.js and Jest
@@ -68,6 +69,10 @@ unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 
 I recommend to [install][volta-getting-started] Volta and use it to manage your project's toolchain.
 
+### ES Modules
+
+Warning: This template is native [ESM][esm]. If your project uses CommonJS, you will have to [convert to ESM][sindresorhus-esm] or use the [dynamic import()][dynamic-import] function. Please do not open issues for questions regarding CommonJS or ESM.
+
 ### Writing tests in JavaScript
 
 Writing unit tests in TypeScript can sometimes be troublesome and confusing. Especially when mocking dependencies and using spies.
@@ -102,3 +107,6 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [volta-tomdale]: https://twitter.com/tomdale/status/1162017336699838467?s=20
 [gh-actions]: https://github.com/features/actions
 [repo-template-action]: https://github.com/jsynowiec/node-typescript-boilerplate/generate
+[esm]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+[sindresorhus-esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
+[dynamic-import]: https://v8.dev/features/dynamic-import
