@@ -60,7 +60,7 @@ unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 - `test` - run tests,
 - `test:watch` - interactive watch mode to automatically re-run tests
 
-## Additional Informations
+## Additional Information
 
 ### Why include Volta
 
