@@ -1,7 +1,6 @@
 export default {
-  preset: 'ts-jest/presets/js-with-ts',
   testEnvironment: 'node',
-  extensionsToTreatAsEsm: ['.ts'],
+  preset: 'ts-jest/presets/default-esm',
   globals: {
     'ts-jest': {
       useESM: true,
@@ -9,9 +8,6 @@ export default {
   },
   moduleNameMapper: {
     '^(\\.{1,2}/.*)\\.js$': '$1',
-  },
-  transform: {
-    "^.+\\.ts$": "ts-jest"
   },
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.ts$',
   coverageDirectory: 'coverage',

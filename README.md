@@ -71,13 +71,9 @@ I recommend to [install][volta-getting-started] Volta and use it to manage your 
 
 ### ES Modules
 
-Warning: This template is native [ESM][esm]. If your project uses CommonJS, you will have to [convert to ESM][sindresorhus-esm] or use the [dynamic import()][dynamic-import] function. Please do not open issues for questions regarding CommonJS or ESM.
+This template uses native [ESM][esm]. If your project requires CommonJS, you will have to [convert to ESM][sindresorhus-esm] or use the [dynamic import()][dynamic-import] function.
 
-### Writing tests in JavaScript
-
-Writing unit tests in TypeScript can sometimes be troublesome and confusing. Especially when mocking dependencies and using spies.
-
-This is **optional**, but if you want to learn how to write JavaScript tests for TypeScript modules, read the [corresponding wiki page][wiki-js-tests].
+Please do not open issues for questions regarding CommonJS or ESM on this repo.
 
 ## Backers & Sponsors
 
