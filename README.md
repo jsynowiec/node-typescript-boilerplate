@@ -17,10 +17,10 @@
 - Type definitions for Node.js and Jest
 - [Prettier][prettier] to enforce consistent code style
 - NPM [scripts](#available-scripts) for common operations
-- Simple example of TypeScript code and unit test
-- .editorconfig for consistent file format
+- [EditorConfig][editorconfig] for consistent coding style
 - Reproducible environments thanks to [Volta][volta]
 - Example configuration for [GitHub Actions][gh-actions]
+- Simple example of TypeScript code and unit test
 
 🤲 Free as in speech: available under the APLv2 license.
 
@@ -110,3 +110,4 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [sindresorhus-esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
 [nodejs-esm]: https://nodejs.org/docs/latest-v16.x/api/esm.html
 [ts47-esm]: https://devblogs.microsoft.com/typescript/announcing-typescript-4-7/#esm-nodejs
+[editorconfig]: https://editorconfig.org
