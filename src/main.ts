@@ -23,10 +23,12 @@ function delayedHello(
   );
 }
 
-// Below are examples of using ESLint errors suppression
-// Here it is suppressing a missing return type definition for the greeter function.
+// Please see the comment in the .eslintrc.json file about the suppressed rule!
+// Below is an example of how to use ESLint errors suppression. You can read more
+// at https://eslint.org/docs/latest/user-guide/configuring/rules#disabling-rules
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-export async function greeter(name: string) {
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+export async function greeter(name: any) { // eslint-disable-line @typescript-eslint/no-explicit-any
+  // The name parameter should be of type string. Any is used only to trigger the rule.
   return await delayedHello(name, Delays.Long);
 }
