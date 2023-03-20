@@ -17,8 +17,8 @@
     "jest": "~29.5",
     "prettier": "~2.8",
     "rimraf": "~4.4",
+    "ts-api-utils": "~0.0.44",
     "ts-jest": "~29.0",
-    "tsutils": "~3.21",
     "typescript": "~5.0"
   },
   "scripts": {
