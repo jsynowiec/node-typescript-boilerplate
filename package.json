@@ -9,15 +9,15 @@
   "devDependencies": {
     "@types/jest": "~29.5",
     "@types/node": "~18",
-    "@typescript-eslint/eslint-plugin": "~5.59",
-    "@typescript-eslint/parser": "~5.59",
-    "eslint": "~8.38",
-    "eslint-config-prettier": "~8.8",
+    "@typescript-eslint/eslint-plugin": "~6.2",
+    "@typescript-eslint/parser": "~6.2",
+    "eslint": "~8.46",
+    "eslint-config-prettier": "~9.0",
     "eslint-plugin-jest": "~27.2",
-    "jest": "~29.5",
-    "prettier": "~2.8",
+    "jest": "~29.6",
+    "prettier": "~3.0",
     "rimraf": "~5.0",
-    "ts-api-utils": "~0.0.44",
+    "ts-api-utils": "~1.0",
     "ts-jest": "~29.1",
     "typescript": "~5.0"
   },
@@ -36,7 +36,7 @@
   "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "tslib": "~2.5"
+    "tslib": "~2.6"
   },
   "volta": {
     "node": "18.12.1"
