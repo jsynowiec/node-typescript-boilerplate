@@ -1,0 +1,17 @@
+.dockerignore
+node_modules
+npm-debug.log
+Dockerfile
+.n*
+.env*
+build
+*.env
+*.yml
+**/coverage
+*.xml
+README*
+docs*
+.vscode
+.git*
+.gitignore
+.azure

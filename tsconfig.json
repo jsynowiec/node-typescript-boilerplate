@@ -6,6 +6,9 @@
     "moduleResolution": "node16",
     "rootDir": ".",
     "outDir": "build",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "allowSyntheticDefaultImports": true,
     "importHelpers": true,
     "alwaysStrict": true,

@@ -1,9 +1,12 @@
-import { Delays, greeter } from '../src/main.js';
+import { Delays, greeter } from '@/main.js';
+
+import { jest } from '@jest/globals';
 
 describe('greeter function', () => {
   const name = 'John';
   let hello: string;
 
+  // @ts-ignore
   let timeoutSpy: jest.SpyInstance;
 
   // Act before assertions
@@ -29,10 +32,7 @@ describe('greeter function', () => {
   // Assert if setTimeout was called properly
   it('delays the greeting by 2 seconds', () => {
     expect(setTimeout).toHaveBeenCalledTimes(1);
-    expect(setTimeout).toHaveBeenLastCalledWith(
-      expect.any(Function),
-      Delays.Long,
-    );
+    expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), Delays.Long);
   });
 
   // Assert greeter result
