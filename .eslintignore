@@ -1,1 +1,4 @@
 /**/*.js
+build/**
+tmp/**
+coverage/**
