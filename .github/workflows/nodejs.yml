@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: volta-cli/action@v1
+      - uses: actions/checkout@v4
+      - uses: volta-cli/action@v4
       - run: npm ci --no-audit
       - run: npm run lint --if-present
       - run: npm test
