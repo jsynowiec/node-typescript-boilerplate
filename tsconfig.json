@@ -1,23 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es2022",
-    "module": "node16",
-    "lib": ["ES2022"],
-    "moduleResolution": "node16",
-    "rootDir": ".",
-    "outDir": "build",
-    "allowSyntheticDefaultImports": true,
-    "importHelpers": true,
-    "alwaysStrict": true,
-    "sourceMap": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitAny": false,
-    "noImplicitThis": false,
-    "strictNullChecks": false
+    "module": "CommonJS",
+    "target": "ES2022",    // Usar ES Modules
+    "moduleResolution": "Node",              // Resolver módulos como no Node.js
+    "lib": ["ES2022"],                       // Bibliotecas padrão do ES2022
+    "esModuleInterop": true,                 // Habilita interoperabilidade entre ES Modules e CommonJS
+    "forceConsistentCasingInFileNames": true,// Força consistência na escrita dos nomes de arquivos
+    "strict": true,                          // Ativa todas as verificações estritas do TypeScript
+    "skipLibCheck": true,                    // Ignora checagem de tipos de bibliotecas
+    "resolveJsonModule": true,               // Permite a importação de arquivos JSON
+    "outDir": "build",                       // Diretório de saída para arquivos compilados
+    "rootDir": ".",                          // Diretório raiz do projeto
+    "sourceMap": true,                       // Gera arquivos de mapa de código
+    "allowSyntheticDefaultImports": true     // Permite importações de padrões sintéticos
   },
-  "include": ["src/**/*", "__tests__/**/*"]
+  "include": ["src/**/*", "__tests__/**/*", "index.ts"]
 }
