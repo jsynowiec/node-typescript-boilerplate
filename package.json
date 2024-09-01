@@ -8,6 +8,7 @@
   "devDependencies": {
     "@types/jest": "~29.5",
     "@types/node": "~20",
+    "@types/swagger-jsdoc": "^6.0.4",
     "@types/swagger-ui-express": "^4.1.6",
     "@typescript-eslint/eslint-plugin": "~7.6",
     "@typescript-eslint/parser": "~7.6",
@@ -42,6 +43,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "express": "^4.19.2",
+    "mysql2": "^3.11.0",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1",
     "tslib": "~2.6"
