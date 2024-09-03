@@ -5,7 +5,7 @@ const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',         // Seu usuário do MySQL
   password: '1666', // Sua senha do MySQL
-  database: ''
+  database: 'AcademicCenterDB'
 });
 
 // Conecta ao banco de dados
