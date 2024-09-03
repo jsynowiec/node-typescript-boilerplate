@@ -31,7 +31,6 @@ const options: swaggerJsdoc.Options = {
   },
 
   apis: ['./src/routes/*.ts'], // Caminho para os arquivos de rotas com anotações Swagger
-  apis2: ['./src/routes/*.js'], // Caminho para os arquivos de rotas com anotações Swagger
 
 };
 
