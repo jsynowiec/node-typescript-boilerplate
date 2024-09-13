@@ -7,18 +7,21 @@
     "node": ">= 20.9 < 21"
   },
   "devDependencies": {
+    "@eslint/js": "~9.10",
+    "@types/eslint__js": "~8.42",
     "@types/node": "~20",
-    "@typescript-eslint/eslint-plugin": "~7.6",
-    "@typescript-eslint/parser": "~7.6",
-    "@vitest/coverage-v8": "~1.5",
-    "eslint": "~8.57",
+    "@typescript-eslint/parser": "~8.5",
+    "@vitest/coverage-v8": "~2.1",
+    "@vitest/eslint-plugin": "~1.1",
     "eslint-config-prettier": "~9.1",
-    "eslint-plugin-vitest": "~0.4",
-    "prettier": "~3.2",
-    "rimraf": "~5.0",
+    "eslint": "~9.10",
+    "globals": "~15.9",
+    "prettier": "~3.3",
+    "rimraf": "~6.0",
     "ts-api-utils": "~1.3",
+    "typescript-eslint": "~8.5",
     "typescript": "~5.4",
-    "vitest": "~1.5"
+    "vitest": "~2.1"
   },
   "scripts": {
     "start": "node build/src/main.js",
@@ -27,7 +30,7 @@
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -w -p tsconfig.json",
     "build:release": "npm run clean && tsc -p tsconfig.release.json",
-    "lint": "eslint . --ext .ts --ext .mts",
+    "lint": "eslint .",
     "test": "vitest run unit",
     "test:coverage": "vitest run unit --coverage.enabled --coverage.all",
     "prettier": "prettier \"{src,__{tests}__}/**/*.{ts,mts}\" --config .prettierrc --write",
@@ -37,7 +40,7 @@
   "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "tslib": "~2.6"
+    "tslib": "~2.7"
   },
   "volta": {
     "node": "20.12.2"
