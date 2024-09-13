@@ -42,6 +42,6 @@ describe('greeter function', () => {
 
   // Assert greeter result
   it('Error test to poc', () => {
-    expect(hello).toBe(`aasdHello, ${name}`);
+    expect(hello).toBe(`Error, ${name}`);
   });
 });
