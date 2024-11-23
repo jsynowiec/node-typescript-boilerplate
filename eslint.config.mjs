@@ -12,7 +12,11 @@ export default tseslint.config(
     ignores: ['**/build/**', '**/tmp/**', '**/coverage/**'],
   },
   eslint.configs.recommended,
-  eslintConfigPrettier,
+  Object.keys(eslintConfigPrettier.rules).map((rule) => ({
+    rules: {
+      [rule]: eslintConfigPrettier.rules[rule],
+    },
+  })),
   {
     extends: [...tseslint.configs.recommended],
 
