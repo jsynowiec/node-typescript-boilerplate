@@ -20,7 +20,7 @@
     "rimraf": "~6.0",
     "ts-api-utils": "~2.0",
     "typescript-eslint": "~8.19",
-    "typescript": "~5.5",
+    "typescript": "~5.7",
     "vitest": "~2.1"
   },
   "scripts": {
