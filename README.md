@@ -96,8 +96,8 @@ Support this project by becoming a [sponsor][sponsor].
 Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/main/LICENSE) file for details.
 
 [ts-badge]: https://img.shields.io/badge/TypeScript-5.7-blue.svg
-[nodejs-badge]: https://img.shields.io/badge/Node.js->=%2020.9-blue.svg
-[nodejs]: https://nodejs.org/dist/latest-v20.x/docs/api/
+[nodejs-badge]: https://img.shields.io/badge/Node.js-22-blue.svg
+[nodejs]: https://nodejs.org/dist/latest-v22.x/docs/api/
 [gha-badge]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml/badge.svg
 [gha-ci]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml
 [typescript]: https://www.typescriptlang.org/
