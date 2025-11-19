@@ -3,8 +3,8 @@ import type {
   ValidationRule,
   ValidationResult,
   ValidationError,
-} from './schemas';
-import { ValidationLevel } from './schemas';
+} from './schemas.js';
+import { ValidationLevel } from './schemas.js';
 
 /**
  * Advanced validator with sanitization and transformation capabilities

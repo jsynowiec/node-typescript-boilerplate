@@ -2,19 +2,19 @@
  * Validation module exports
  */
 
-export { ValidationLevel, SchemaBuilder } from './schemas';
+export { ValidationLevel, SchemaBuilder } from './schemas.js';
 export type {
   ValidationRule,
   ValidationSchema,
   ValidationError,
   ValidationResult,
-} from './schemas';
+} from './schemas.js';
 
-export { Validator, validateData } from './validator';
+export { Validator, validateData } from './validator.js';
 
 export {
   ValidationMiddleware,
   getGlobalMiddleware,
   resetGlobalMiddleware,
-} from './middleware';
-export type { MiddlewareOptions } from './middleware';
+} from './middleware.js';
+export type { MiddlewareOptions } from './middleware.js';

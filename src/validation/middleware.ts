@@ -1,5 +1,5 @@
-import type { ValidationSchema, ValidationResult } from './schemas';
-import { Validator } from './validator';
+import type { ValidationSchema, ValidationResult } from './schemas.js';
+import { Validator } from './validator.js';
 
 /**
  * Validation middleware configuration
