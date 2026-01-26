@@ -21,6 +21,7 @@
 - Reproducible environments thanks to [Volta][volta]
 - Example configuration for [GitHub Actions][gh-actions]
 - Simple example of TypeScript code and unit test
+- Basic [AGENTS.md][agents-md] guidelines for agents
 
 🤲 Free as in speech: available under the APLv2 license.
 
@@ -79,11 +80,15 @@ In 2023, my team and I gradually switched from Jest to [Vitest][vitest] in all t
 
 Nevertheless, the choice of specific tooling always depends on the specific requirements and characteristics of the project.
 
+### Why AGENTS.md over individual configs
+
+The [AGENTS.md][agents-md] format has emerged as a community-driven standard, stewarded by the Agentic AI Foundation under the Linux Foundation. It is the closest thing to a universal config file, promoting consistency across AI coding tools.
+
+The included guidelines are just an example. You should write your own, project-specific context and instructions.
+
 ### ES Modules
 
-This template uses native [ESM][esm]. Make sure to read [this][nodejs-esm], and [this][ts47-esm] first.
-
-If your project requires CommonJS, you will have to [convert to ESM][sindresorhus-esm].
+This template uses native [ESM][esm]. Make sure to read [this][nodejs-esm], and [this][ts47-esm] first. If your project requires CommonJS, you will have to [convert to ESM][sindresorhus-esm].
 
 Please do not open issues for questions regarding CommonJS or ESM on this repo.
 
@@ -119,3 +124,4 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [ts47-esm]: https://devblogs.microsoft.com/typescript/announcing-typescript-4-7/#esm-nodejs
 [editorconfig]: https://editorconfig.org
 [vitest]: https://vitest.dev
+[agents-md]: https://agents.md
