@@ -68,17 +68,17 @@ unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 
 ### Why include Volta
 
-I recommend to [install][volta-getting-started] Volta and use it to manage your project's toolchain.
+I recommend installing [Volta][volta-getting-started] and using it to manage your project's toolchain.
 
-[Volta][volta]’s toolchain always keeps track of where you are, it makes sure the tools you use always respect the settings of the project you’re working on. This means you don’t have to worry about changing the state of your installed software when switching between projects. For example, it's [used by engineers at LinkedIn][volta-tomdale] to standardize tools and have reproducible development environments.
+[Volta][volta] keeps track of your environment, ensuring the tools you use respect the settings of the project you're working on. This means you don't have to worry about changing your installed software when switching between projects.
 
 ### Why Vitest instead of Jest
 
 I recommend using [Vitest][vitest] for unit and integration testing of your TypeScript code.
 
-In 2023, my team and I gradually switched from Jest to [Vitest][vitest] in all the projects. We've found out that generally, Vitest is faster than Jest, especially for large test suits. Furthermore, Vitest has native support for ES modules, is easier to configure, and has a much nicer developer experience when used with TypeScript. For example, when working with mocks, spies and types.
+Vitest is generally faster than Jest, especially for large test suites. Additionally, Vitest has native support for ES modules, is easier to configure, and offers a better developer experience when used with TypeScript. For example, it simplifies working with mocks, spies, and types.
 
-Nevertheless, the choice of specific tooling always depends on the specific requirements and characteristics of the project.
+Nevertheless, the choice of specific tooling always depends on the project's specific requirements and characteristics.
 
 ### Why AGENTS.md over individual configs
 
