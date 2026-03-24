@@ -12,14 +12,14 @@
     "@typescript-eslint/parser": "~8.54",
     "@vitest/coverage-v8": "~4.0",
     "@vitest/eslint-plugin": "~1.6",
-    "eslint-config-prettier": "~10.1",
     "eslint": "~9.39",
+    "eslint-config-prettier": "~10.1",
     "globals": "~17.1",
     "prettier": "~3.8",
     "rimraf": "~6.1",
     "ts-api-utils": "~2.4",
+    "typescript": "~6.0.2",
     "typescript-eslint": "~8.54",
-    "typescript": "~5.9",
     "vitest": "~4.0"
   },
   "scripts": {
