@@ -1,7 +1,7 @@
 # node-typescript-boilerplate
 
 [![Sponsor][sponsor-badge]][sponsor]
-[![TypeScript version][ts-badge]][typescript-5-9]
+[![TypeScript version][ts-badge]][typescript-6-0]
 [![Node.js version][nodejs-badge]][nodejs]
 [![APLv2][license-badge]][license]
 [![Build Status - GitHub Actions][gha-badge]][gha-ci]
@@ -10,7 +10,7 @@
 
 🏃🏽 Instant Value: All basic tools included and configured:
 
-- [TypeScript][typescript] [5.9][typescript-5-9]
+- [TypeScript][typescript] [6.0][typescript-6-0]
 - [ESM][esm]
 - [ESLint][eslint] with some initial rules recommendation
 - [Vitest][vitest] for fast unit testing and code coverage
@@ -100,13 +100,13 @@ Support this project by becoming a [sponsor][sponsor].
 
 Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/main/LICENSE) file for details.
 
-[ts-badge]: https://img.shields.io/badge/TypeScript-5.9-blue.svg
+[ts-badge]: https://img.shields.io/badge/TypeScript-6.0-blue.svg
 [nodejs-badge]: https://img.shields.io/badge/Node.js-24-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v24.x/docs/api/
 [gha-badge]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml/badge.svg
 [gha-ci]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml
 [typescript]: https://www.typescriptlang.org/
-[typescript-5-9]: https://devblogs.microsoft.com/typescript/announcing-typescript-5-9/
+[typescript-6-0]: https://devblogs.microsoft.com/typescript/announcing-typescript-6-0/
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/main/LICENSE
 [sponsor-badge]: https://img.shields.io/badge/♥-Sponsor-fc0fb5.svg
