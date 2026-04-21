@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
-      - uses: volta-cli/action@v4
+      - uses: volta-cli/action@v5
       - run: npm ci --no-audit
       - run: npm run lint --if-present
       - run: npm run prettier:check --if-present
