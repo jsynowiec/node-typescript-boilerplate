@@ -18,7 +18,7 @@
 - [Prettier][prettier] to enforce consistent code style
 - NPM [scripts](#available-scripts) for common operations
 - [EditorConfig][editorconfig] for consistent coding style
-- Reproducible environments thanks to [Volta][volta]
+- Reproducible environments thanks to [Mise][mise]
 - Example configuration for [GitHub Actions][gh-actions]
 - Simple example of TypeScript code and unit test
 - Basic [AGENTS.md][agents-md] guidelines for agents
@@ -66,11 +66,14 @@ unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 
 ## Additional Information
 
-### Why include Volta
+### Why include Mise
 
-I recommend installing [Volta][volta-getting-started] and using it to manage your project's toolchain.
+I recommend installing [Mise][mise-getting-started] and using it to manage your project's toolchain and environment.
 
-[Volta][volta] keeps track of your environment, ensuring the tools you use respect the settings of the project you're working on. This means you don't have to worry about changing your installed software when switching between projects.
+[Mise][mise] keeps track of your environment, ensuring the tools you use respect the settings of the project you're working on. This means you don't have to worry about changing your installed software when switching between projects.
+
+> [!NOTE]
+> This project previously used [Volta](https://volta.sh) for toolchain management. Volta is no longer maintained (see [volta-cli/volta#2080](https://github.com/volta-cli/volta/issues/2080)), so it was replaced with Mise, which the Volta maintainers recommend.
 
 ### Why Vitest instead of Jest
 
@@ -113,9 +116,8 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [sponsor]: https://github.com/sponsors/jsynowiec
 [eslint]: https://github.com/eslint/eslint
 [prettier]: https://prettier.io
-[volta]: https://volta.sh
-[volta-getting-started]: https://docs.volta.sh/guide/getting-started
-[volta-tomdale]: https://twitter.com/tomdale/status/1162017336699838467
+[mise]: https://mise.jdx.dev
+[mise-getting-started]: https://mise.jdx.dev/getting-started.html
 [gh-actions]: https://github.com/features/actions
 [repo-template-action]: https://github.com/jsynowiec/node-typescript-boilerplate/generate
 [esm]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules

@@ -22,6 +22,9 @@ build/
 # Optional npm cache directory
 .npm
 
+# Mise local override
+mise.local.toml
+
 # Optional eslint cache
 .eslintcache
 
