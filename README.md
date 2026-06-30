@@ -10,7 +10,7 @@
 
 🏃🏽 Instant Value: All basic tools included and configured:
 
-- [TypeScript][typescript] [6.0][typescript-6-0]
+- [TypeScript][typescript] [6.0][typescript-6-0] with strict type checks enabled by default
 - [ESM][esm]
 - [ESLint][eslint] with some initial rules recommendation
 - [Vitest][vitest] for fast unit testing and code coverage
