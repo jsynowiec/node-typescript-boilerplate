@@ -2,6 +2,8 @@
   "name": "node-typescript-boilerplate",
   "version": "0.0.0",
   "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
+  "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
+  "license": "Apache-2.0",
   "type": "module",
   "engines": {
     "node": ">= 24.11 < 25"
@@ -25,7 +27,8 @@
   "scripts": {
     "start": "node build/src/main.js",
     "clean": "rimraf coverage build tmp",
-    "prebuild": "npm run lint",
+    "prebuild": "npm run lint && npm run check-types",
+    "check-types": "tsc --noEmit -p tsconfig.json",
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -w -p tsconfig.json",
     "build:release": "npm run clean && tsc -p tsconfig.release.json",
@@ -36,8 +39,6 @@
     "prettier": "prettier \"{src,__{tests}__}/**/*.{ts,mts}\" --config .prettierrc --write",
     "prettier:check": "prettier \"{src,__{tests}__}/**/*.{ts,mts}\" --config .prettierrc --check"
   },
-  "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
-  "license": "Apache-2.0",
   "dependencies": {
     "tslib": "~2.8"
   }
