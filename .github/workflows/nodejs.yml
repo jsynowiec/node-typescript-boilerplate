@@ -3,14 +3,29 @@ name: Node.js CI
 on: [push]
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v6
-      - uses: jdx/mise-action@v2
+      - uses: actions/checkout@v7
+      - uses: jdx/mise-action@v4
       - run: npm ci --no-audit
-      - run: npm run lint --if-present
-      - run: npm run prettier:check --if-present
+      - run: npm run lint
+      - run: npm run prettier:check
+      - run: npm run check-types
+
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: jdx/mise-action@v4
+      - run: npm ci --no-audit
       - run: npm test
-      - run: npm run build --if-present
+
+  build:
+    needs: [lint, tests]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: jdx/mise-action@v4
+      - run: npm ci --no-audit
+      - run: npm run build
