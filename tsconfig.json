@@ -1,30 +1,36 @@
 {
   "compilerOptions": {
+    // output
     "target": "ES2024",
     "module": "nodenext",
+    "moduleResolution": "nodenext",
     "lib": ["ES2024"],
     "types": ["node"],
-    "moduleResolution": "nodenext",
     "rootDir": "src",
     "outDir": "build",
-    // set declaration to `false` for an app, keep `true` for a library
-    "declaration": true,
+    "declaration": true, // set to `false` for an app, keep `true` for a library
+    "sourceMap": true,
+
+    // module interop
     "allowSyntheticDefaultImports": true,
     "importHelpers": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+
+    // type safety
+    "strict": true,
     "alwaysStrict": true,
-    "sourceMap": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "isolatedModules": true,
-    "skipLibCheck": true,
+
+    // build performance
     "incremental": true,
+    "skipLibCheck": true,
     "tsBuildInfoFile": ".tsbuildinfo",
-    "strict": true,
-    "resolveJsonModule": true,
-    "noUncheckedIndexedAccess": true,
   },
   "include": ["src"],
 }
