@@ -54,15 +54,19 @@ unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 
 ## Available Scripts
 
-- `clean` - remove coverage data, cache and transpiled files,
-- `prebuild` - lint source files and tests before building,
-- `build` - transpile TypeScript to ES6,
+- `start` - run the built application,
+- `clean` - remove coverage, build, and tmp directories,
+- `prebuild` - lint and type-check before building,
+- `check-types` - type-check without emitting output,
+- `build` - transpile TypeScript to ES2024,
 - `build:watch` - interactive watch mode to automatically transpile source files,
+- `build:release` - clean and transpile for release (no source maps, comments removed),
 - `lint` - lint source files and tests,
-- `prettier` - reformat files,
 - `test` - run tests,
-- `test:watch` - interactive watch mode to automatically re-run tests
-- `test:coverage` - run test and print out test coverage
+- `test:coverage` - run tests with coverage reporting,
+- `test:watch` - interactive watch mode to automatically re-run tests,
+- `prettier` - reformat source files,
+- `prettier:check` - check source file formatting without modifying
 
 ## Additional Information
 
