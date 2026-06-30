@@ -16,9 +16,7 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitAny": false,
-    "noImplicitThis": false,
-    "strictNullChecks": false
+    "strict": true,
   },
-  "include": ["src"]
+  "include": ["src"],
 }
