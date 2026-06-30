@@ -6,26 +6,47 @@
 [![APLv2][license-badge]][license]
 [![Build Status - GitHub Actions][gha-badge]][gha-ci]
 
-👩🏻‍💻 Developer Ready: A comprehensive template. Works out of the box for most [Node.js][nodejs] projects.
+A modern Node.js TypeScript starter template for building backend services, CLIs, workers, APIs, and libraries with a clean, production-ready toolchain.
 
-🏃🏽 Instant Value: All basic tools included and configured:
+This boilerplate is intentionally small, strict, and boring: no framework lock-in, no unnecessary runtime dependencies, and no hidden magic. Clone it, click Use template, or fork it when you want a reliable TypeScript foundation for a new Node.js project.
 
-- [TypeScript][typescript] [6.0][typescript-6-0] with strict type checks enabled by default
-- [ESM][esm]
-- [ESLint][eslint] with some initial rules recommendation
-- [Vitest][vitest] for fast unit testing and code coverage
-- Type definitions for Node.js
-- [Prettier][prettier] to enforce consistent code style
-- NPM [scripts](#available-scripts) for common operations
-- [EditorConfig][editorconfig] for consistent coding style
-- Reproducible environments thanks to [Mise][mise]
-- Example configuration for [GitHub Actions][gh-actions]
-- Simple example of TypeScript code and unit test
-- Basic [AGENTS.md][agents-md] guidelines for agents
+## What's included
 
-🤲 Free as in speech: available under the APLv2 license.
+- [TypeScript][typescript] [6][typescript-6-0] with strict, modern configuration
+- Native [ESM][esm] support
+- [Node.js][nodejs] 24 runtime target
+- [Vitest][vitest] for fast unit tests and coverage
+- [ESLint][eslint] and typescript-eslint for static analysis
+- [Prettier][prettier] and EditorConfig for consistent formatting
+- [GitHub Actions][gh-actions] CI workflow
+- [Mise][mise] for reproducible local toolchains
+- Minimal example source code and unit test
+- [AGENTS.md][agents-md] with project guidance for AI coding agents such as GitHub Copilot, Claude Code, Codex-style agents, and other agentic development tools
 
-## Getting Started
+### AI coding agent ready
+
+This repository includes `AGENTS.md`, giving coding agents clear instructions about TypeScript style, testing expectations, Node.js conventions, dependency policy, and verification steps.
+
+## Good fit for
+
+- Starting a new Node.js + TypeScript backend
+- Creating a framework-free TypeScript service
+- Building a CLI, worker, API, job processor, or library
+- Using Vitest instead of Jest
+- Using native ESM instead of CommonJS
+- Giving AI coding agents clear project instructions from day one
+
+## Why this template?
+
+Most starters are either too empty or too opinionated. This one gives you the boring essentials: TypeScript, linting, formatting, testing, CI, reproducible tooling, and agent instructions — without forcing Express, NestJS, Fastify, serverless tooling, databases, ORMs, or deployment platforms on you.
+
+⭐ If this template saves you setup time, please star the repo to help others discover it.
+
+## What this is not
+
+This template does not include Express, NestJS, Fastify, serverless deployment, databases, ORMs, authentication, Docker, or cloud-specific configuration. It is a clean foundation you can build on.
+
+## Getting started
 
 This project is intended to be used with the latest Active LTS release of [Node.js][nodejs].
 
@@ -52,7 +73,7 @@ wget https://github.com/jsynowiec/node-typescript-boilerplate/archive/main.zip -
 unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 ```
 
-## Available Scripts
+## Available scripts
 
 - `start` - run the built application,
 - `clean` - remove coverage, build, and tmp directories,
@@ -68,7 +89,7 @@ unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 - `prettier` - reformat source files,
 - `prettier:check` - check source file formatting without modifying
 
-## Additional Information
+## Additional information
 
 ### Why include Mise
 
@@ -103,7 +124,7 @@ Please do not open issues for questions regarding CommonJS or ESM on this repo.
 
 TypeScript inlines helper functions (e.g. for `async`/`await`, spread, destructuring) into every output file that needs them, and `importHelpers: true` plus `tslib` makes all files share a single imported copy instead, deduplicating repeated runtime code across the build.
 
-## Backers & Sponsors
+## Sponsor
 
 Support this project by becoming a [sponsor][sponsor].
 
