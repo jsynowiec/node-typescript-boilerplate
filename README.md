@@ -27,7 +27,13 @@ This boilerplate is intentionally small, strict, and boring: no framework lock-i
 
 This repository includes `AGENTS.md`, giving coding agents clear instructions about TypeScript style, testing expectations, Node.js conventions, dependency policy, and verification steps.
 
-## Good fit for
+## Why this template?
+
+Most starters are either too empty or too opinionated. This one gives you the boring essentials: TypeScript, linting, formatting, testing, CI, reproducible tooling, and agent instructions — without forcing Express, NestJS, Fastify, serverless tooling, databases, ORMs, or deployment platforms on you.
+
+⭐ If this template saves you setup time, please star the repo to help others discover it.
+
+### Good fit for
 
 - Starting a new Node.js + TypeScript backend
 - Creating a framework-free TypeScript service
@@ -36,13 +42,7 @@ This repository includes `AGENTS.md`, giving coding agents clear instructions ab
 - Using native ESM instead of CommonJS
 - Giving AI coding agents clear project instructions from day one
 
-## Why this template?
-
-Most starters are either too empty or too opinionated. This one gives you the boring essentials: TypeScript, linting, formatting, testing, CI, reproducible tooling, and agent instructions — without forcing Express, NestJS, Fastify, serverless tooling, databases, ORMs, or deployment platforms on you.
-
-⭐ If this template saves you setup time, please star the repo to help others discover it.
-
-## What this is not
+### What this is not
 
 This template does not include Express, NestJS, Fastify, serverless deployment, databases, ORMs, authentication, Docker, or cloud-specific configuration. It is a clean foundation you can build on.
 
