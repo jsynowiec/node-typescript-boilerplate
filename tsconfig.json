@@ -7,6 +7,8 @@
     "moduleResolution": "nodenext",
     "rootDir": "src",
     "outDir": "build",
+    // set declaration to `false` for an app, keep `true` for a library
+    "declaration": true,
     "allowSyntheticDefaultImports": true,
     "importHelpers": true,
     "alwaysStrict": true,
