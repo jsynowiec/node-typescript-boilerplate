@@ -27,7 +27,7 @@ export default [
 
     languageOptions: {
       parser: tseslint.parser,
-      ecmaVersion: 2020,
+      ecmaVersion: 2024,
       sourceType: 'module',
 
       globals: {
