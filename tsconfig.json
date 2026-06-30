@@ -24,6 +24,7 @@
     "tsBuildInfoFile": ".tsbuildinfo",
     "strict": true,
     "resolveJsonModule": true,
+    "noUncheckedIndexedAccess": true,
   },
   "include": ["src"],
 }
