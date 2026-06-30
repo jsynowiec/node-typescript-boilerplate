@@ -3,7 +3,6 @@
   "compilerOptions": {
     "rootDir": ".",
     "types": ["vitest/globals", "node"],
-    "lib": ["ES2024"]
   },
-  "include": ["src", "__tests__"]
+  "include": ["src", "__tests__"],
 }
