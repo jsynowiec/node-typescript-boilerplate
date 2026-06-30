@@ -23,6 +23,7 @@
     "incremental": true,
     "tsBuildInfoFile": ".tsbuildinfo",
     "strict": true,
+    "resolveJsonModule": true,
   },
   "include": ["src"],
 }
