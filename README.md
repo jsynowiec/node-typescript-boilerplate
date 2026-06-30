@@ -95,6 +95,10 @@ This template uses native [ESM][esm]. Make sure to read [this][nodejs-esm], and 
 
 Please do not open issues for questions regarding CommonJS or ESM on this repo.
 
+### Why include `tslib`
+
+TypeScript inlines helper functions (e.g. for `async`/`await`, spread, destructuring) into every output file that needs them, and `importHelpers: true` plus `tslib` makes all files share a single imported copy instead, deduplicating repeated runtime code across the build.
+
 ## Backers & Sponsors
 
 Support this project by becoming a [sponsor][sponsor].
