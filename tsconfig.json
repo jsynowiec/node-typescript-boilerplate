@@ -16,6 +16,7 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "isolatedModules": true,
     "strict": true,
   },
   "include": ["src"],
