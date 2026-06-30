@@ -50,21 +50,22 @@ This template does not include Express, NestJS, Fastify, serverless deployment, 
 
 This project is intended to be used with the latest Active LTS release of [Node.js][nodejs].
 
-### Use as a repository template
+### (Recommended) Use as a repository template
 
 To start, just click the **[Use template][repo-template-action]** link (or the green button). Start adding your code in the `src` and unit tests in the `__tests__` directories.
 
 ### Clone repository
 
-To clone the repository, use the following commands:
+To start a new project from this template without the upstream history or remote:
 
 ```sh
-git clone https://github.com/jsynowiec/node-typescript-boilerplate
-cd node-typescript-boilerplate
+git clone --depth 1 https://github.com/jsynowiec/node-typescript-boilerplate my-project
+cd my-project
+rm -rf .git && git init && git add -A && git commit -m "Initial commit"
 npm install
 ```
 
-### Download latest release
+### Download
 
 Download and unzip the current **main** branch or one of the tags:
 
