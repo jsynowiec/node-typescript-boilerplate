@@ -117,7 +117,7 @@ Nevertheless, the choice of specific tooling always depends on the project's spe
 
 The [AGENTS.md][agents-md] format has emerged as a community-driven standard, stewarded by the Agentic AI Foundation under the Linux Foundation. It is the closest thing to a universal config file, promoting consistency across AI coding tools. With Claude Code natively supporting AGENTS.md as of version 2.1.277 (released September 18, 2026), every AI coding tool now supports this format.
 
-The included guidelines are just an example. You should write your own, project-specific context and instructions.
+The included guidelines are just an example of behavioral instructions for modern models (GPT-6, Sonnet/Opus 5.5). You should write your own, project-specific context and instructions.
 
 ### ES Modules
 
