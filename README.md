@@ -1,7 +1,7 @@
 # node-typescript-boilerplate
 
 [![Sponsor][sponsor-badge]][sponsor]
-[![TypeScript version][ts-badge]][typescript-6-0]
+[![TypeScript version][ts-badge]][typescript-7-0]
 [![Node.js version][nodejs-badge]][nodejs]
 [![APLv2][license-badge]][license]
 [![Build Status - GitHub Actions][gha-badge]][gha-ci]
@@ -12,7 +12,7 @@ This boilerplate is intentionally small, strict, and boring: no framework lock-i
 
 ## What's included
 
-- [TypeScript][typescript] [6][typescript-6-0] with strict, modern configuration
+- [TypeScript][typescript] [7][typescript-7-0] with strict, modern configuration
 - Native [ESM][esm] support
 - [Node.js][nodejs] v24 runtime
 - [pnpm][pnpm] package manager
@@ -142,13 +142,13 @@ Support this project by becoming a [sponsor][sponsor].
 
 Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/main/LICENSE) file for details.
 
-[ts-badge]: https://img.shields.io/badge/TypeScript-6.0-blue.svg
+[ts-badge]: https://img.shields.io/badge/TypeScript-7.0-blue.svg
 [nodejs-badge]: https://img.shields.io/badge/Node.js-24-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v24.x/docs/api/
 [gha-badge]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml/badge.svg
 [gha-ci]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml
 [typescript]: https://www.typescriptlang.org/
-[typescript-6-0]: https://devblogs.microsoft.com/typescript/announcing-typescript-6-0/
+[typescript-7-0]: https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/
 [license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/main/LICENSE
 [sponsor-badge]: https://img.shields.io/badge/♥-Sponsor-fc0fb5.svg
