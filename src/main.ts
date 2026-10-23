@@ -11,20 +11,21 @@ export enum Delays {
  * Returns a Promise<string> that resolves after a given time.
  *
  * @param {string} name - A name.
- * @param {number=} [delay=Delays.Medium] - A number of milliseconds to delay resolution of the Promise.
+ * @param {number} [delay=Delays.Medium] - A number of milliseconds to delay resolution of the Promise.
  * @returns {Promise<string>}
  */
 function delayedHello(
   name: string,
   delay: number = Delays.Medium,
-): Promise<string | undefined> {
-  return new Promise((resolve: (value?: string) => void) =>
+): Promise<string> {
+  return new Promise((resolve: (value: string) => void) =>
     setTimeout(() => resolve(`Hello, ${name}`), delay),
   );
 }
 
-// Below is an example of how to use Oxlint errors suppression. You can read more
-// at https://oxc.rs/docs/guide/usage/linter/ignore-comments.html
+// Below is an example of how to use Oxlint errors suppression.
+// This is a demo of suppression syntax, not a pattern to copy
+// Read more at https://oxc.rs/docs/guide/usage/linter/ignore-comments.html
 
 // oxlint-disable-next-line typescript/explicit-function-return-type, typescript/no-explicit-any
 export async function greeter(name: any) {

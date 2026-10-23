@@ -12,14 +12,11 @@
     "sourceMap": true,
 
     // module interop
-    "allowSyntheticDefaultImports": true,
     "importHelpers": true,
-    "isolatedModules": true,
     "resolveJsonModule": true,
 
     // type safety
     "strict": true,
-    "alwaysStrict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,

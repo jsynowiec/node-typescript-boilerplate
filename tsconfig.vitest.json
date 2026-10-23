@@ -2,7 +2,7 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "rootDir": ".",
-    "types": ["vitest/globals", "node"],
+    "types": ["node"],
   },
   "include": ["src", "__tests__"],
 }

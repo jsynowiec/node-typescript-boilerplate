@@ -49,9 +49,9 @@ This project is intended to be used with the latest Active LTS release of [Node.
 
 ### (Recommended) Use as a repository template
 
-To start, just click the **[Use template][repo-template-action]** link (or the green button). Start adding your code in the `src` and unit tests in the `__tests__` directories.
+To start, just click the **[Use template][repo-template-action]** link (or the green button). Start adding your code in the `src` directory and unit tests in the `__tests__` directory.
 
-### Clone repository
+### Clone the repository
 
 To start a new project from this template without the upstream history or remote:
 
@@ -85,7 +85,7 @@ unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 - `test:coverage` - run tests with coverage reporting,
 - `test:watch` - interactive watch mode to automatically re-run tests,
 - `format` - reformat source files,
-- `format:check` - check source file formatting without modifying
+- `format:check` - check source file formatting without modifying them
 
 ## Linting and formatting
 
@@ -99,7 +99,7 @@ Oxlint uses its default rules and severities, with the Vitest plugin enabled for
 
 ### Why switch to Oxlint and Oxfmt
 
-I recommend using [Oxlint][oxlint] and [Oxfmt][oxfmt] for linting and formatting. By running as self-contained native binaries built on Rust, Oxlint and Oxfmt significantly outperform ESLint and Prettier while stripping away dozens of Node.js dependencies. Their zero-config defaults eliminate complex plugin chains, shrinking attack surface and ensuring conflict-free integration across modern JavaScript and TypeScript environments.
+I recommend using [Oxlint][oxlint] and [Oxfmt][oxfmt] for linting and formatting. By running as self-contained native binaries built on Rust, Oxlint and Oxfmt significantly outperform ESLint and Prettier while stripping away dozens of Node.js dependencies. Their zero-config defaults eliminate complex plugin chains, shrinking the attack surface and ensuring conflict-free integration across modern JavaScript and TypeScript environments.
 
 ### Why include Mise
 
@@ -120,19 +120,17 @@ Nevertheless, the choice of specific tooling always depends on the project's spe
 
 ### Why AGENTS.md over individual configs
 
-The [AGENTS.md][agents-md] format has emerged as a community-driven standard, stewarded by the Agentic AI Foundation under the Linux Foundation. It is the closest thing to a universal config file, promoting consistency across AI coding tools. With Claude Code natively supporting AGENTS.md as of version 2.1.277 (released September 18, 2026), every AI coding tool now supports this format.
+The [AGENTS.md][agents-md] format has emerged as a community-driven standard, stewarded by the Agentic AI Foundation under the Linux Foundation. It is the closest thing to a universal config file, promoting consistency across AI coding tools. With recent versions of Claude Code natively supporting AGENTS.md, every major AI coding tool now supports this format.
 
-The included guidelines are just an example of behavioral instructions for modern models (GPT-6, Sonnet/Opus 5.5). You should write your own, project-specific context and instructions.
+The included guidelines are just an example of behavioural instructions for modern models. You should write your own, project-specific context and instructions.
 
 ### ES modules
 
-This template uses native [ESM][esm]. Make sure to read [this][nodejs-esm], and [this][ts47-esm] first. If your project requires CommonJS, you will have to [convert to ESM][sindresorhus-esm].
-
-Please do not open issues for questions regarding CommonJS or ESM on this repo.
+This template uses native [ESM][esm]. Please do not open issues for questions regarding CommonJS or ESM on this repo.
 
 ### Why include `tslib`
 
-TypeScript inlines helper functions (e.g. for `async`/`await`, spread, destructuring) into every output file that needs them, and `importHelpers: true` plus `tslib` makes all files share a single imported copy instead, deduplicating repeated runtime code across the build.
+TypeScript inlines helper functions (e.g. for `async`/`await`, spread, destructuring) into every output file that needs them, and `importHelpers: true` plus `tslib` make all files share a single imported copy instead, deduplicating repeated runtime code across the build.
 
 ## Sponsor
 
@@ -160,9 +158,6 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [gh-actions]: https://github.com/features/actions
 [repo-template-action]: https://github.com/jsynowiec/node-typescript-boilerplate/generate
 [esm]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
-[sindresorhus-esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
-[nodejs-esm]: https://nodejs.org/docs/latest-v16.x/api/esm.html
-[ts47-esm]: https://devblogs.microsoft.com/typescript/announcing-typescript-4-7/#esm-nodejs
 [editorconfig]: https://editorconfig.org
 [vitest]: https://vitest.dev
 [agents-md]: https://agents.md
