@@ -16,8 +16,8 @@ This boilerplate is intentionally small, strict, and boring: no framework lock-i
 - Native [ESM][esm] support
 - [Node.js][nodejs] 24 runtime target
 - [Vitest][vitest] for fast unit tests and coverage
-- [ESLint][eslint] and typescript-eslint for static analysis
-- [Prettier][prettier] and EditorConfig for consistent formatting
+- [Oxlint][oxlint] for static analysis
+- [Oxfmt][oxfmt] and EditorConfig for consistent formatting
 - [GitHub Actions][gh-actions] CI workflow
 - [Mise][mise] for reproducible local toolchains
 - Minimal example source code and unit test
@@ -87,10 +87,18 @@ unzip node-typescript-boilerplate.zip && rm node-typescript-boilerplate.zip
 - `test` - run tests,
 - `test:coverage` - run tests with coverage reporting,
 - `test:watch` - interactive watch mode to automatically re-run tests,
-- `prettier` - reformat source files,
-- `prettier:check` - check source file formatting without modifying
+- `format` - reformat source files,
+- `format:check` - check source file formatting without modifying
+
+## Linting and formatting
+
+Oxlint uses its default rules and severities, with the Vitest plugin enabled for tests. Intentional overrides report unused variables and explicit `any` as errors, and missing TypeScript return types as warnings. Generated build, temporary, and coverage files are ignored.
 
 ## Additional information
+
+### Why switch to Oxlint and Oxfmt
+
+I recommend using [Oxlint][oxlint] and [Oxfmt][oxfmt] for linting and formatting. By running as self-contained native binaries built on Rust, Oxlint and Oxfmt significantly outperform ESLint and Prettier while stripping away dozens of Node.js dependencies. Their zero-config defaults eliminate complex plugin chains, shrinking attack surface and ensuring conflict-free integration across modern JavaScript and TypeScript environments.
 
 ### Why include Mise
 
@@ -144,8 +152,8 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [license]: https://github.com/jsynowiec/node-typescript-boilerplate/blob/main/LICENSE
 [sponsor-badge]: https://img.shields.io/badge/♥-Sponsor-fc0fb5.svg
 [sponsor]: https://github.com/sponsors/jsynowiec
-[eslint]: https://github.com/eslint/eslint
-[prettier]: https://prettier.io
+[oxlint]: https://oxc.rs/docs/guide/usage/linter
+[oxfmt]: https://oxc.rs/docs/guide/usage/formatter
 [mise]: https://mise.jdx.dev
 [mise-getting-started]: https://mise.jdx.dev/getting-started.html
 [gh-actions]: https://github.com/features/actions

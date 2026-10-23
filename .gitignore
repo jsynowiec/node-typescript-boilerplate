@@ -26,8 +26,5 @@ build/
 # Mise local override
 mise.local.toml
 
-# Optional eslint cache
-.eslintcache
-
 # Misc
 .DS_Store

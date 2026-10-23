@@ -23,11 +23,10 @@ function delayedHello(
   );
 }
 
-// Please see the comment in the .eslintrc.json file about the suppressed rule!
-// Below is an example of how to use ESLint errors suppression. You can read more
-// at https://eslint.org/docs/latest/user-guide/configuring/rules#disabling-rules
+// Below is an example of how to use Oxlint errors suppression. You can read more
+// at https://oxc.rs/docs/guide/usage/linter/ignore-comments.html
 
-// eslint-disable-next-line @typescript-eslint/explicit-function-return-type, @typescript-eslint/no-explicit-any
+// oxlint-disable-next-line typescript/explicit-function-return-type, typescript/no-explicit-any
 export async function greeter(name: any) {
   // The name parameter should be of type string. Any is used only to trigger the rule.
   return await delayedHello(name, Delays.Long);
