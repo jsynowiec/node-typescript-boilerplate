@@ -4,27 +4,33 @@ logs
 npm-debug.log*
 
 # Dependencies
-node_modules/
+**/node_modules/**
+_node_modules
 
 # Coverage
 coverage
 
 # Transpiled files
-build/
+build
+dist
 .tsbuildinfo
 
+# pnpm uses npm for publishing a new version with
+# dependencies bundled but the npm lockfile is not needed
+# because pnpm use pnpm for installation
+package-lock.json
+yarn.lock
+
 # VS Code
-.vscode
+.vscode/
 !.vscode/tasks.js
 
 # JetBrains IDEs
 .idea/
-
-# Optional npm cache directory
-.npm
 
 # Mise local override
 mise.local.toml
 
 # Misc
 .DS_Store
+.tmp

@@ -6,7 +6,13 @@
   "license": "Apache-2.0",
   "type": "module",
   "engines": {
-    "node": ">= 24.11 < 25"
+    "node": ">=24.11 <25"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": ">=12.0.0 <13.0.0"
+    }
   },
   "devDependencies": {
     "@types/node": "~24",
@@ -18,13 +24,13 @@
     "vitest": "~5.0.5"
   },
   "scripts": {
-    "start": "node build/src/main.js",
+    "start": "node build/main.js",
     "clean": "rimraf coverage build tmp",
-    "prebuild": "npm run lint && npm run check-types",
+    "prebuild": "pnpm run lint && pnpm run check-types",
     "check-types": "tsc --noEmit -p tsconfig.json",
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -w -p tsconfig.json",
-    "build:release": "npm run clean && tsc -p tsconfig.release.json",
+    "build:release": "pnpm run clean && tsc -p tsconfig.release.json",
     "lint": "oxlint .",
     "test": "vitest run unit --config __tests__/vitest.config.ts",
     "test:coverage": "vitest run unit --config __tests__/vitest.config.ts --coverage.enabled --coverage.all",

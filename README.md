@@ -14,7 +14,8 @@ This boilerplate is intentionally small, strict, and boring: no framework lock-i
 
 - [TypeScript][typescript] [6][typescript-6-0] with strict, modern configuration
 - Native [ESM][esm] support
-- [Node.js][nodejs] 24 runtime target
+- [Node.js][nodejs] v24 runtime
+- [pnpm][pnpm] package manager
 - [Vitest][vitest] for fast unit tests and coverage
 - [Oxlint][oxlint] for static analysis
 - [Oxfmt][oxfmt] and EditorConfig for consistent formatting
@@ -25,7 +26,7 @@ This boilerplate is intentionally small, strict, and boring: no framework lock-i
 
 ## Why this template?
 
-Most starters are either too empty or too opinionated. This one gives you the boring essentials: TypeScript, linting, formatting, testing, CI, reproducible tooling, and agent instructions — without forcing Express, NestJS, Fastify, serverless tooling, databases, ORMs, or deployment platforms on you.
+Most starters are either too empty or too opinionated. This one gives you the boring essentials: TypeScript, linting, formatting, testing, CI, reproducible tooling, and agent instructions, without forcing Express, NestJS, Fastify, serverless tooling, databases, ORMs, or deployment platforms on you.
 
 ⭐ If this template saves you setup time, please star the repo to help others discover it.
 
@@ -58,7 +59,7 @@ To start a new project from this template without the upstream history or remote
 git clone --depth 1 https://github.com/jsynowiec/node-typescript-boilerplate my-project
 cd my-project
 rm -rf .git && git init && git add -A && git commit -m "Initial commit"
-npm install
+pnpm install
 ```
 
 ### Download
@@ -92,6 +93,10 @@ Oxlint uses its default rules and severities, with the Vitest plugin enabled for
 
 ## Additional information
 
+### Why pnpm
+
+[pnpm][pnpm] significantly speeds up package installation while saving massive amounts of disk space. Also, its strict dependency isolation prevents "ghost dependencies", while strict defaults ensure better supply-chain safety without extra tooling.
+
 ### Why switch to Oxlint and Oxfmt
 
 I recommend using [Oxlint][oxlint] and [Oxfmt][oxfmt] for linting and formatting. By running as self-contained native binaries built on Rust, Oxlint and Oxfmt significantly outperform ESLint and Prettier while stripping away dozens of Node.js dependencies. Their zero-config defaults eliminate complex plugin chains, shrinking attack surface and ensuring conflict-free integration across modern JavaScript and TypeScript environments.
@@ -119,7 +124,7 @@ The [AGENTS.md][agents-md] format has emerged as a community-driven standard, st
 
 The included guidelines are just an example of behavioral instructions for modern models (GPT-6, Sonnet/Opus 5.5). You should write your own, project-specific context and instructions.
 
-### ES Modules
+### ES modules
 
 This template uses native [ESM][esm]. Make sure to read [this][nodejs-esm], and [this][ts47-esm] first. If your project requires CommonJS, you will have to [convert to ESM][sindresorhus-esm].
 
@@ -161,3 +166,4 @@ Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-ty
 [editorconfig]: https://editorconfig.org
 [vitest]: https://vitest.dev
 [agents-md]: https://agents.md
+[pnpm]: https://pnpm.io/

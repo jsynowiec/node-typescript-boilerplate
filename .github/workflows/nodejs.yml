@@ -8,18 +8,18 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: jdx/mise-action@v5
-      - run: npm ci --no-audit
-      - run: npm run lint
-      - run: npm run format:check
-      - run: npm run check-types
+      - run: pnpm ci
+      - run: pnpm run lint
+      - run: pnpm run format:check
+      - run: pnpm run check-types
 
   tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
       - uses: jdx/mise-action@v5
-      - run: npm ci --no-audit
-      - run: npm test
+      - run: pnpm ci
+      - run: pnpm test
 
   build:
     needs: [lint, tests]
@@ -27,5 +27,5 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: jdx/mise-action@v5
-      - run: npm ci --no-audit
-      - run: npm run build
+      - run: pnpm ci
+      - run: pnpm run build
