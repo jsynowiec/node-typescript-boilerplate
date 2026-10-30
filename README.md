@@ -14,7 +14,7 @@ This boilerplate is intentionally small, strict, and boring: no framework lock-i
 
 - [TypeScript][typescript] [7][typescript-7-0] with strict, modern configuration
 - Native [ESM][esm] support
-- [Node.js][nodejs] v24 runtime
+- [Node.js][nodejs] v26 runtime
 - [pnpm][pnpm] package manager
 - [Vitest][vitest] for fast unit tests and coverage
 - [Oxlint][oxlint] for static analysis
@@ -141,8 +141,8 @@ Support this project by becoming a [sponsor][sponsor].
 Licensed under the APLv2. See the [LICENSE](https://github.com/jsynowiec/node-typescript-boilerplate/blob/main/LICENSE) file for details.
 
 [ts-badge]: https://img.shields.io/badge/TypeScript-7.0-blue.svg
-[nodejs-badge]: https://img.shields.io/badge/Node.js-24-blue.svg
-[nodejs]: https://nodejs.org/dist/latest-v24.x/docs/api/
+[nodejs-badge]: https://img.shields.io/badge/Node.js-26-blue.svg
+[nodejs]: https://nodejs.org/dist/latest-v26.x/docs/api/
 [gha-badge]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml/badge.svg
 [gha-ci]: https://github.com/jsynowiec/node-typescript-boilerplate/actions/workflows/nodejs.yml
 [typescript]: https://www.typescriptlang.org/
